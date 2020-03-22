@@ -1,0 +1,13 @@
+apt-get install pwgen
+apt-get install git
+apt-get update
+apt-get upgrade
+echo http://en.wikipedia.org/$1 > s$1
+x-special/nautilus-clipboard
+copy
+file:///home/tmm88/Workspace/tmm88_toolbox/_/shell/AUTOMATEDBROWSERSEARCHES/arts/_openFile
+file:///home/tmm88/Workspace/tmm88_toolbox/_/shell/AUTOMATEDBROWSERSEARCHES/arts/_take5
+file:///home/tmm88/Workspace/tmm88_toolbox/_/shell/AUTOMATEDBROWSERSEARCHES/arts/_take33
+
+chmod -R +x .
+fgp

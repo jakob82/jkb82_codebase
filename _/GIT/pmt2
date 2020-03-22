@@ -1,0 +1,6 @@
+gs
+ga
+chmod -R +x .
+fgp
+clear
+tail $(ls)

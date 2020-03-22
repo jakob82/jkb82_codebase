@@ -1,0 +1,20 @@
+//fazer stockpiles, trigar wisto por nodejs, e recombinar os sinais todos para fazer isto
+({Mix.fill(33, {Pan2.ar(Pulse.ar([64.midicps, 68.midicps, 69.midicps, 71.midicps, 73.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([56.midicps, 58.midicps, 61.midicps, 63.midicps, 65.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([56-3.midicps, 58.midicps, 61.midicps, 63.midicps, 65.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([57.midicps, 59.midicps, 60.midicps, 64.midicps, 66.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([58.midicps, 60.midicps, 61.midicps, 65.midicps, 65.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([55.midicps, 62.midicps, 63.midicps, 65.midicps, 67.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 63.midicps, 64.midicps, 65.midicps, 72.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([55.midicps, 63.midicps, 65.midicps, 67.midicps, 74.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([53.midicps, 63.midicps, 65.midicps, 68.midicps, 70.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 64.midicps, 65.midicps, 67.midicps, 69.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([53.midicps, 62.midicps, 65.midicps, 68.midicps, 70.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([53.midicps, 62.midicps, 65.midicps, 67.midicps, 69.midicps, 71.midicps, 72.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 64.midicps, 66.midicps, 69.midicps, 71.midicps, 73.midicps, 72.midicps, 74.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 64.midicps, 66.midicps, 69.midicps, 71.midicps, 73.midicps, 72.midicps, 74.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+{Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 64.midicps, 66.midicps, 69.midicps, 71.midicps, 73.midicps, 72.midicps, 76.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;
+{Mix.fill(33, {Pan2.ar(Pulse.ar([54.midicps, 64.midicps, 66.midicps, 69.midicps, 71.midicps, 73.midicps, 72.midicps, 80.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;
+({Mix.fill(33, {Pan2.ar(Pulse.ar([52.midicps, 64.midicps, 65.midicps, 67.midicps, 69.midicps, 71.midicps, 73.midicps, 79.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar(Pulse.ar([36.midicps, 48.midicps, 45.midicps, 60.midicps, 62.midicps, 64.midicps, 67.midicps, 69.midicps, 71.midicps, 69+12.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)
+({Mix.fill(33, {Pan2.ar([Pulse, Saw].choose.ar([40.midicps, 50.midicps, 30.midicps, 60.midicps, 70.midicps, 80.midicps, 90.midicps, 30.midicps, 100.midicps, 20.midicps].choose, width: SinOsc.kr(SinOsc.kr(rrand(0.1, 3.14)))))})}.scope;)

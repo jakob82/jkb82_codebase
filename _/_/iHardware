@@ -1,0 +1,2 @@
+lscpu && lshw && hwinfo && lscpi && lscpi -v | grep "VGA" -A 12 && lsscsi && lsusb && inxi -Fx && lsblk && df -H && pydf && sudo fdisk -l && mount | clumn -t && mount | column | grep ext && free -m && sudo dmidecode -t processor && sudo dmidecode -t memory && sudo dmidecode -t bios && cat /proc/cpuinfo && cat /proc/meminfo && cat /proc/version && cat /proc/scsi/scsi && cat /proc/partitions && sudo hdparm -i /dev/sda
+

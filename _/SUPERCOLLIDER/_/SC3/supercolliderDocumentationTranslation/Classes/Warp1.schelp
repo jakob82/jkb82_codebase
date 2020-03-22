@@ -1,0 +1,96 @@
+class:: Warp1
+summary:: Varrer um buffer com um ponteiro temporal
+categories:: UGens>Buffer, UGens>Generators>Granular
+
+description::
+Inspirado na class de SuperCollider2 da autoria de Chad Kirby Warp1, que foi inspirada no sndwarp de Richard Karpen para CSound. Um time stretcher/sintetizador granular e pitch shifter.
+
+classmethods::
+private:: categories
+
+method:: ar
+argument::numChannels
+o número de canais no ficheiro de som usado pelo bufnum.
+
+argument::bufnum
+o número de buffer do ficheiro de som mono.
+
+argument::pointer
+a posição no buffer. O valor deve encontrar-se entre 0 e 1, com 0 sendo o início do buffer,
+e 1 sendo o final.
+
+argument::freqScale
+o multiplicado de mudança de altura. 1.0 é o valor normal, 0.5 é uma oitava abaixo, 2.0 é uma oitava acima.
+valores negetivos tocam o ficheiro de som de forma reversa.
+
+argument::windowSize
+o tamanho de cada janela de grão.
+
+argument::envbufnum
+o número de buffer contendo um sinal para usar como curva de envolvente para o grão
+-1 usa uma envolvente incorporada do tipo envolvente de Hanning.
+
+argument::overlaps
+o número de janelas sobrepostas.
+
+argument::windowRandRatio
+a quantidade de aleatoriedade na função da janela. Deve encontrar-se entre 0 (sem aleatoriedade) e 1.0 (certamente demasiado aleatório).
+
+argument::interp
+o método de interpolação usado para mudar a altura dos grãos. 1 = sem interpolação. 2 = linear.
+		4 = interpolação cúbica (mais intensivo computacionalmente).
+
+argument::mul
+
+argument::add
+
+Examples::
+code::
+s.boot;
+
+(
+var winenv;
+// uma curva de envolvente customizada - não se trata de uma muito boa, mas dá para ouvir a diferença esta
+// a custom envelope - not a very good one, but you can hear the difference between this
+// e a pré-definida
+winenv = Env([0, 1, 0], [0.5, 0.5], [8, -8]);
+b = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01-44_1.aiff");
+z = Buffer.sendCollection(s, winenv.discretize, 1);
+
+SynthDef(\warp, { |out, bufnum = 0, envbuf = -1|
+	var sound, pointer, filelength, pitch, env, dir;
+	// pointer - percorre  o ficheiro de som do início ao fim em 15 segundos
+	pointer = Line.kr(0, 1, 15);
+	// controla a altura com MouseX
+	pitch = MouseX.kr(0.5, 2);
+	env = EnvGen.kr(Env([0.001, 1, 1, 0.001], [0.1, 14, 0.9], 'exp'), doneAction: Done.freeSelf);
+	sound = Warp1.ar(1, bufnum, pointer, pitch, 0.1, envbuf, 8, 0.1, 2);
+	Out.ar(out, sound * env);
+}).add;
+
+)
+
+// usa a a envolvente incorporada.
+x = Synth(\warp, [\bufnum, b, \envbuf, -1])
+
+// alterna com a curva de envolvente customizada
+x.set(\envbuf, z)
+x.set(\envbuf, -1);
+
+x.free;
+::
+
+code::
+(
+b.free;
+b= Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01-44_1.aiff");
+SynthDef(\warp2, { |out, bufnum|
+	var pointer = Phasor.ar(0, SampleDur.ir / BufDur.ir(bufnum) * XLine.kr(1, 0.25, 20));
+	var sound = Warp1.ar(1, bufnum, pointer, 1, 0.3, -1, 16, Line.kr(0, 1, 40), 4);
+	Out.ar(out, Pan2.ar(sound, pointer * 2 - 1, 0.25));
+}).add;
+)
+x = Synth(\warp2, [\bufnum, b])
+x.free
+b.free
+::

@@ -1,0 +1,2 @@
+brew install pandoc texlive-latex-base texlive-fonts-recommended
+pandoc $1 -s -o $2

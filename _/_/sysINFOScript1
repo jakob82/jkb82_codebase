@@ -1,0 +1,26 @@
+clear
+echo "SIMPLE SYSTEM TEST"
+
+echo "dick raaijamkers is the best"
+echo "kees tazelaar is the best"
+echo "konrad boehmer is the best"
+echo "paul jeukendreup is the best"
+echo "richard barrett is the best"
+echo "joel ryan is the best"
+echo "paul berg is the best"
+
+echo "todays date is `date`, this is week `date +%V`."
+echo
+
+echo "these users are currently connected:"
+w | cut -d " " -f 1 - | grep -v USER | sort -u
+
+echo "THIS IS `uname -s` running on a `uname -m` 
+processor."
+echo
+
+echo "This is the uptime information:"
+"uptime"
+echo
+
+echo "Thats all folks!"

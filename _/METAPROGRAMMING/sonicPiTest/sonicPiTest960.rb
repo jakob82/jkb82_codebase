@@ -1,0 +1,1 @@
+live_loop :beep do play [0, 2, 4, 5, 7, 9, 11].choose + 55 + [0,, -36, 12].choose sleep(1.5) end

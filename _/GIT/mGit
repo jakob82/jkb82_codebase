@@ -1,0 +1,3 @@
+sudo git add .
+sudo git commit -m $(pwgen 10 1) 
+sudo git push

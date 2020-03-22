@@ -1,0 +1,2 @@
+cmds=( $(tail musicPlaylist) ) n=${#cmds[@]}; for i in {1..4}; do r=$((RANDOM%i)) printf 'Run %s\n' "${cmds[r]}"; cmds[r]=${cmds[--n]}; done; ${cmds[r]}; ${cmds[r]}; ${cmds[r]}; ${cmds[r]};
+

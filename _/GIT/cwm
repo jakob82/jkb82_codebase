@@ -1,0 +1,8 @@
+apt-get install git
+apt-get install pwgen
+apt-get update
+apt-get upgrade
+git status
+git add .
+git commit -m $(pwgen 10 1)
+chmod -R +x .

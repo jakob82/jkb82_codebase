@@ -1,0 +1,3 @@
+killall "Google Chrome"
+killall "Safari.app"
+killall "Firefox.app"

@@ -1,0 +1,4 @@
+sudo apt-get install virtualbox
+sudo apt-get install linux-headers-generic build-essential dkms
+sudo apt-get remove --purge virtualbox-dkms
+sudo apt-get install virtualbox-dkms

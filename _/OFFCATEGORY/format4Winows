@@ -1,0 +1,1 @@
+diskutil partitionDisk $1 1 MBRFormat FAT32 UNTITLED 100%

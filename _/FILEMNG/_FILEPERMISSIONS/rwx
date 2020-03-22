@@ -1,0 +1,1 @@
+chmod ugo-rwx $1

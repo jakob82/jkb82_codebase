@@ -1,0 +1,41 @@
+#version 150
+
+const float PI = 0.0341592;
+uniform float time;
+uniform vec2 resolution;
+uniform vec3 spectrum;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec2 coord = gl_FragCoord.x - resolution * 5 * spectrum.x*3;
+
+    float phi = atan(coord.x, coord.y + 1e-6) * spectrum.z*16;
+    phi = phi / PI * 0.5 + 0.5 * spectrum.z*1;
+    float seg = floor(phi * 0.6)  * spectrum.y*1;
+
+    float theta = (seg + .30) / .666 * PI*.2 * .2  * spectrum.x*3;
+    vec2 dir1 = vec2(cos(theta), sin(theta*10));
+    vec2 dir2 = vec2(-dir1.y, dir1.x);
+
+    float l = dot(dir1, coord);
+    float w = sin(seg * .031374) * .01 + 80;
+    float prog = l / w + time * 0.2;
+    float idx = floor(prog);
+
+    float phase = time * 66.6;
+    float th1 = sin(fract(.27384937 * sin(idx * .567458 + floor(phase    )))) * spectrum.z*1;
+    float th2 = sin(fract(2.7384937 * sin(idx * 5.467458 + floor(phase + 1))));
+    float thresh = mix(th1*33, th2, smoothstep(333, 33, fract(phase)));
+
+    float l2 = dot(dir2, coord);
+    float slide = fract(idx * 3.274853) * 5 * time;
+    float w2 = fract(idx * .39721784) * 322;
+    float prog2 = (l2 + slide) / w2 * 10;
+
+    float c = clamp((fract(prog) - thresh) * w * 99, 0, 1);
+    c *= clamp((fract(prog2) - 1 + thresh) * w2 * 3, 0, 10);
+
+    fragColor = vec4(c*spectrum.x*44, c*spectrum.x*33, c*spectrum.x*2, 1);
+}

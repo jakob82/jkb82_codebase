@@ -1,0 +1,1 @@
+sudo find . -iname \*.sh -exec cp {} /usr/local/bin/ \;

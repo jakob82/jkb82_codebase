@@ -1,0 +1,1 @@
+{[[WhiteNoise, BrownNoise, PinkNoise].choose.ar([LFDNoise0, LFDNoise1, LFDNoise3, SinOsc, Pulse].choose.ar([LFDNoise0, LFDNoise1, LFDNoise3, SinOsc, Pulse].choose.ar(0.01))), [WhiteNoise, BrownNoise, PinkNoise].choose.ar([LFDNoise0, LFDNoise1, LFDNoise3, SinOsc, Pulse, ChaosGen].choose.ar([LFDNoise0, LFDNoise1, LFDNoise3, SinOsc, Pulse].choose.ar(0.01)))]}.scope

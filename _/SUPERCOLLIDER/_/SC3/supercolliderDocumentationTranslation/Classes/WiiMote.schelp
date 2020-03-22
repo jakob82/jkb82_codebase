@@ -1,0 +1,240 @@
+class:: WiiMote
+summary:: use o Ninentdo (tm) Wii Remote com o Supercollider
+related:: Classes/HID
+categories:: External Control
+
+description::
+A classe Wiimote permite ter acesso ao WiiMote a parti do SuperCollider, tanto no sentido de receber data do dispositivo, como no sentido de enviar informação de volta (por exemplo, para accionar vibração).
+
+subsection::Algumas questões relevantes no tocante ao WiiMote
+
+Esta classe tem sido desenvolvida para trabalhar tanto em Mac como Linux. O interface é maioritariamente o mesmo, mas há algumas questões relacionadas com a utilização no Mac.
+Funciona normalmente melhor com um receptor de BlueTooth externo, e com o interno (testado num Macbook Pro). Também cheguei à conclusão que no caso do Mac, constata-se que é necessário ligar, desligar e reconectar para conseguir que tudo funcione devidamente.
+
+As opções de infra vermelhos, assim como controlador clássico não foram testadas (devido à ausência de acesso tanto ao dispositivo complementar pelo developer).
+
+Esta classe não é implementada em Windows, e não irá funcionar nessa plataforma.
+
+ClassMethods::
+
+private::initClass, prStart, prStop, prDiscover
+
+method::new
+note::
+Deve ser evocada directamente. Ver link link::#*discover::.
+::
+
+method::start
+Dá início ao eventloop. Chamado automaticamente pelo link::#*discover::, portanto não há necessidade de evocar este método.
+
+argument::updtime
+actualiza o eventloop em milisegundos.
+
+method::discover
+Descobre um novo dispotivo. Chama para a criação do novo dispositivo e instância de classe chamando o método link::#*new::. ( strong::new:: não deve ser chamado directamente). Este método é síncrono, e irá bloquear até aque um novo dispositivo seja encontrado ou até o tempo deste esgotar.
+
+Quando a opção discover é evocada, os butões 1 e 2 no Wii Remote devem ser primidos para colocar o dispositivo em modo de descoberta.
+
+returns:: Um novo objecto WiimMote para o dispositivo descoberto, ou code::nil:: se nenhum dispositivo for encontrado.
+
+discussion::
+Exemplo para inicar:
+code::
+w = WiiMote.discover;   // descobre um novo dispositivo
+w.battery;              // faz um post do estado de bateria do novo dispositivo
+
+// varrimento:
+WiiMote.closeAll;       // fecha todos os dispositivos
+WiiMote.stop;
+::
+
+method::all
+Devolve um  link::Classes/Array:: com todos os dispositivos WiimMote.
+
+method::closeAll
+Fecha todos os dispositivos WiiMote.
+
+method::stop
+Para o eventloop. Apenas realmente necessário no Mac, mas usado para robustes cross platform.
+
+InstanceMethods::
+
+private::prInit, prOpen, prClose, prAddress, prConnect, prDisconnect, prCalibration, prEnable, prEnableExpansion, prEnableIRSensor, prEnableMotionSensor, prEnableButtons, prSetVibration, prWiiSetLED, prHandleBatteryEvent, prHandleExtensionEvent, prHandleButtonEvent, prHandleNunchukEvent, prHandleClassicEvent, prHandleIREvent, prHandleAccEvent, prHandleEvent, prReadError, prConnectAction, prDisconnectAction
+
+method::dumpEvents
+devolve eventos de entrada para fins de debugging.
+
+method::spec
+Devolve a especificação do dispositivo, com nomes simbólicos para cada item. Cada nome liga com os valores actuais.
+
+method::actionSpec
+Devolve a especficação da acção do dispositivo, com nomes simbólicos para cada item. Cada nome no dicionário liga a uma acção para ser executada a partir do momento em que um novo valor seja recebido.
+
+method::closeAction
+Define uma acção a ser executada quando o dispositivo fecha.
+
+method::connectAction
+Define uma acção a ser executada quando o dispositivo conecta.
+
+method::disconnectAction
+Define uma acção a ser executada quando o dispositivo disconecta.
+
+method::at
+Obtém o valor da propriedade do dispositivo a uma dada tecla.
+
+method::setAction
+Define uma acção a ser executada quando o 
+Set an action to be performed when the value of strong::key:: changes. The key name must be one that occurs in the spec.
+
+method::removeAction
+Remove the previously defined action at the strong::key::.
+
+method::close
+Close the device.
+
+subsection::The properties of the Wii Remote
+
+method::battery
+Returns the current battery status of the device.
+
+method::ext_type
+Returns the extension type that is connected.
+
+method::remote_buttons
+Returns an link::Classes/Array:: with the current button values.
+
+method::remote_motion
+Returns an link::Classes/Array:: with the current acceleration values (x,y,z, orientation). Orientation is Mac only.
+
+method::remote_ir
+Returns an link::Classes/Array:: with the found IR objects. (not tested!).
+
+method::remote_led
+Returns an link::Classes/Array:: with the current LED values.
+
+method::setLEDState
+Set the LED with number strong::id:: to value strong::value:: (1=on, 0=off).
+
+method::rumble
+Turn on the rumble, strong::value:: (1=on, 0=off).
+
+method::enable
+Enable the device.
+
+method::enableExpansion
+Enable the device expansion (nunchuk or classic controller).
+
+method::enableButtons
+Enable the buttons on the device.
+
+method::enableMotionSensor
+Enable the motion sensor on the device.
+
+method::enableIRSensor
+Enable the IR sensor on the device.
+
+subsection::The properties of the NunChuk
+
+method::nunchuk_buttons
+Returns an link::Classes/Array:: with the current button values.
+
+method::nunchuk_motion
+Returns an link::Classes/Array:: with the current acceleration values (x,y,z, orientation). Orientation is Mac only.
+
+method::nunchuk_stick
+Returns an link::Classes/Array:: with the current stick values.
+
+subsection::The properties of the Classic Controller
+
+method::classic_buttons
+Returns an link::Classes/Array:: with the current button values.
+
+method::classic_stick1
+Returns an link::Classes/Array:: with the current stick values of stick 1.
+
+method::classic_stick2
+Returns an link::Classes/Array:: with the current stick values of stick 2.
+
+method::classic_analog
+Returns an link::Classes/Array:: with the current analog values.
+
+Examples::
+
+code::
+// Example to start up and view values
+WiiMote.start;    // start the eventloop
+w = WiiMote.discover; // discover a new device (wait for post about connected)
+
+WiiMote.all;      // post an array of all devices
+
+x = WiiMoteGUI.new( w ); // create a GUI (only covers the WiiMote and NunChuk currently)
+
+w.enableMotionSensor( 1 );
+w.enableExpansion( 1 );
+
+w.setLEDState( 0,1 ); // turn the first LED on
+w.rumble( 1 ); // rumble the device
+w.rumble( 0 ); // rumble the device
+
+w.setAction( \bA, { |v| v.postln; } ); // post the value when button A changes.
+w.removeAction( \bA );
+
+// (macOS) if you do not see any changes in the motion sensors, then the connection is bad.
+// push the red button inside the battery compartment, or the buttons 1 and 2 on the WiiMote and start over again to discover...
+
+WiiMote.discover; // discover a new device
+WiiMote.all;      // post an array of all devices
+
+w = WiiMote.all[1];
+x.w.close; // close previous window
+x = WiiMoteGUI.new( w ); // create a GUI (only covers the WiiMote and NunChuk currently)
+
+// now it should work..., if not, repeat the exercise...
+
+
+// clean up
+WiiMote.closeAll; // close all devices
+WiiMote.stop;
+x.w.close;
+::
+
+subsection:: IR tracking
+This example shows a window displaying the objects being tracked by the WiiMote IR camera.
+code::
+(
+var q, w, u;
+q = WiiMote.discover;
+if(q.isNil) {
+    "No wiimote found, aborting.".error;
+} {
+    q.enableIRSensor(1);
+    w = Window("IR sensor", Rect(100, 100, 400, 400)).front;
+    w.onClose = { q.close };
+    u = UserView(w, Rect(0, 0, 400, 400));
+    u.background = Color.black;
+    u.drawFunc = {
+        var p;
+        q.remote_ir.do {|ir, i|
+            if(ir.valid>0) {
+                p = Point(ir.posx*400, ir.posy*400);
+                Pen.addArc(p, ir.size*500.0, 0, pi*2);
+                Pen.fillColor = Color.hsv(i/5, 1, 1);
+                Pen.fill;
+                Pen.stringAtPoint(
+                    "% @ % %".format(
+                        ir.posx.round(0.01),
+                        ir.posy.round(0.01),
+                        (ir.size*1000).floor
+                    ),
+                    p,
+                    Font(Font.defaultSansFace, 9),
+                    Color.white
+                );
+            };
+        };
+    };
+    u.animate = true;
+};
+)
+::
+

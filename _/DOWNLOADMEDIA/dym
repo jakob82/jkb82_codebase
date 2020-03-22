@@ -1,0 +1,10 @@
+#!/bin/bash
+
+brew install install youtube-dl
+brew upgrade youtube-dl
+
+brew install install ffmpeg
+brew upgrade youtube-dl
+
+youtube-dl -x --audio-format $2 $1 
+ls -alR && ls -alR > $3 && pwd && clear

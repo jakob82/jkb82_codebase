@@ -1,0 +1,7 @@
+VAR1=$(pwgen 10 1)
+VAR2=$(date +%Y-%m-%d-%H-%M-%S)
+VARF=$($VAR2-$VAR1)
+
+git status && git add . && git status && git commit -m $VARF && git push && iScripts && clear
+
+

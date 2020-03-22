@@ -1,0 +1,13 @@
+sudo apt-get install mate
+sudo apt-get install tasksel
+sudo tasksel install kubuntu-desktop
+sudo apt install sddm
+sudo dpkg-reconfigure sddm
+sudo apt-get install ubuntu-budgie-desktop
+sudo apt-get install xfce
+sudo apt install xfce4
+sudo apt install xubuntu-desktop
+sudo apt-get install xubuntu
+sudo apt-get install cinnamon
+sudo apt-get install gnome
+sudo apt-get install unity

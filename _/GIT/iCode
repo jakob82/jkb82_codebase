@@ -1,0 +1,17 @@
+iScripts
+tail $(ls)
+iScripts
+clear
+gs
+ga
+gs
+ga
+clear
+tmm_lR
+clear
+gs
+ga
+gs
+ga
+clear
+tail $(ls)

@@ -1,0 +1,16 @@
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$1 > s$1
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$2 > s$2
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$3 > s$3
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$4 > s$4
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$5 > s$5
+sudo echo cmd.exe /C start https://www.youtube.com/results?search_query=$6 > s$6
+sudo chmod -R +x .
+sudo clear
+sudo cp -rf . /usr/local/bin
+sudo git config --global user.email selfdeterminedhermit@gmail.com
+sudo git config --global user.email tmm88
+sudo git status
+sudo git add .
+sudo git commit -m $(pwgen 10 1)
+sudo git push -f .
+clear

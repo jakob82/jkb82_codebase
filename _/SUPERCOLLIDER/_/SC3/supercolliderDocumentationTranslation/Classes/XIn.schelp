@@ -1,0 +1,10 @@
+TITLE:: XIn
+summary:: Classe de ajuda usada com o Inbus UGen.
+categories:: UGens>Input
+related:: Classes/InBus, Classes/In, Classes/InFeedback, Classes/XInFeedback
+
+DESCRIPTION::
+Uma classe privada usada na implementação de  link::Classes/InBus::.
+Não é suposto ser usada com este UGen directamente.
+
+

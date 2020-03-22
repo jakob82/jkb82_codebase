@@ -1,0 +1,31 @@
+PS3='Please enter your choice: "\n 1) make github contribution automatically" "\n 2) make a gitpull automatically" "\n 2) clone a github repository automatically" "\n 3) check current github repository issues" "\n 4) asciiart" "\n 5) turn ascii art into text file" "\n 6) check current github repository issues" "7) quit"'
+options=("make github contribution automatically" "make a gitpull automatically" "clone a github repository automatically" "check current github repository issues" "asciiart" "turn ascii art into text file" "quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "asciiart")
+            echo "please input some text"
+            read in
+            script="aa.sh $in"
+            eval $script
+            ;;
+        "turn ascii art into text file")
+            echo "please add in user input"
+            read in
+            echo "please add in user file path"
+            read path
+            script="aa2txt.sh $in $path"
+            eval $script
+            ;;
+        "convert image to ASCII art")
+            echo "please add in image path"
+            read ipath
+            script="asciifier.sh $ipath"
+            eval $script
+            ;;
+        "quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done

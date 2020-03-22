@@ -1,0 +1,40 @@
+TITLE::Help
+summary::Página inicial da documentação
+categories::Help
+
+O SuperCollider é um servidor de áudio, uma linguagem de proramação, e um IDE para síntese de som e composição algorítmica.
+
+NOTE:: link::Guides/News-3_9##Features novas no SuperCollider 3.9:: ::
+
+SECTION::Pesquisar e procurar
+definitionlist::
+## link::Search:: || Pesquisar todos os documentos e métodos
+## link::Browse:: || Navegar por toda a documentação por categories
+::
+
+SECTION::Dar início
+
+Estes são pontos de partida úteis para conseguir ajuda com o SuperCollider:
+
+definitionlist::
+## link::Tutorials/Getting-Started/00-Getting-Started-With-SC##Getting Started tutorial series:: || Começar com o Supercollider
+## link::Guides/Glossary:: || Glossário
+## link::Guides/ClientVsServer:: || Explicação do cliente e da arquitectura do programa
+## link::Guides/More-On-Getting-Help:: || Como conseguir ajuda
+## link::Browse.html#Tutorials#All tutorials:: || Index de todos os ficheiros categorizados a partir de "Tutoriaiss."
+::
+
+SECTION::Index de documentação
+
+definitionlist::
+## link::Overviews/Documents:: || Índice alfabético de todos os documentos
+## link::Overviews/Classes:: || Índice alfabético de todas as classes
+## link::Overviews/ClassTree:: || Todas as classes por árvore de ineritância
+## link::Overviews/Methods:: || Índice alfabético de todos os métods
+::
+
+SECTION::Licensa
+
+O SuperCollider é um software livre editado sobre licensa GPL: link::Other/Licensing::.
+
+Estes ficheiros de ajuda são publicadas sob licensa Creative Commons CC-BY-SA-3: link::Other/HelpDocsLicensing::.

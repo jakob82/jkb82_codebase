@@ -1,0 +1,65 @@
+class:: SinOsc
+summary:: osiclador sinosidal com interpolação por wavetable
+related:: Classes/Osc, Classes/FSinOsc, Classes/SinOscFB, Classes/PMOsc, Classes/Klang
+categories::  UGens>Generators>Deterministic
+
+
+Description::
+
+Gera uma
+
+Gera uma onda sinosoidal.
+Usa um oscilador lookup wavetable com interpolação linear.
+A modulação de frequência e fase é fornecida para fins de modulação de audio rate.
+Tecnicamente, o  code::SinOsc:: usa a mesma implementação do que link::Classes/Osc:: excepto o facto de a sua tabela estar configurada para ser uma onda sinosoidal gerada a partir de code::8192:: samples.
+
+subsection:: Outro oscilador sinosoidal
+
+LIST::
+## link::Classes/FSinOsc:: – oscildor sinosoidal rápido
+## link::Classes/SinOscFB:: – oscilador com feedback de fase
+## link::Classes/PMOsc:: – oscilador sinosoidal com modulação de fase
+## link::Classes/Klang:: – banco de osciladores sinosoidais
+## link::Classes/DynKlang:: – banco de osciladores sinosoidais moduláveis
+::
+
+
+classmethods::
+
+method::ar, kr
+
+argument::freq
+Frequência em Hertz.
+samplado no domínio de audio rate.
+
+argument::phase
+Fase em radianos.
+Samplado no domínio de audio-rate.
+note::valores de fase devem encontrar-se no âmbito de +-8pi. Se os seus valores de fase forem maiores simplesmente use esse code::.mod(2pi):: para modulá-los.::
+
+argument::mul
+O output irá variar entre este valor.
+
+argument::add
+O valor irá ser adicionado ao output.
+
+
+Examples::
+
+code::
+
+// cria um uma onda sinosoidal a 200 hz no dominio de audio rate,
+// começando com uma fase de 0 e uma amplitude de 0.5
+{ SinOsc.ar(200, 0, 0.5) }.play;
+
+// Modula a frequência a partir de uma rampa exponencial
+{ SinOsc.ar(XLine.kr(2000, 200), 0, 0.5) }.play;
+
+// modulações de frequência mais complexas
+{ SinOsc.ar(SinOsc.ar(XLine.kr(1, 1000, 9), 0, 200, 800), 0, 0.25) }.play;
+
+// modulação de fase (ver também PMOsc)
+{ SinOsc.ar(800, SinOsc.ar(XLine.kr(1, 1000, 9), 0, 2pi), 0.25) }.play;
+
+::
+

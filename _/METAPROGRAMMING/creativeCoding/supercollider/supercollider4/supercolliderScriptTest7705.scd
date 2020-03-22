@@ -1,0 +1,1 @@
+{var sourceSignal = Mix.fill(32, {[Saw, Pulse].choose.ar(freq: [5, 5, 6, 6, 5, 0, 13, 13, 6, 6].choose, , Width:, [1.5728, 1.5728, 1.5728, 2, 1.5728, 7, 1, 1, 2, 2].choose, mul: [1.5728, 1.5728, 1.5728, 2, 1.5728, 7, 1, 1, 2, 2].choose))}; Pan2.ar(sourceSignal, 0, 1) * 0.03;}.scope;

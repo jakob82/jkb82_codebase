@@ -1,0 +1,4 @@
+
+for f in *.$1; do 
+    ffmpeg -i "$f" -y  "${f%.$1}.$2"; 
+done

@@ -1,0 +1,16 @@
+class:: A2K
+summary:: conversor de audio rate para control rate
+related:: Classes/K2A
+categories::  UGens>Conversão
+
+Description::
+
+Conversor de audio rate para control rate. Apenas necessário em casos específicos.
+
+
+classmethods::
+
+method::kr
+
+argument::in
+O sinal de input.

@@ -1,0 +1,2 @@
+tldr $1
+tldr $1 > $1.txt

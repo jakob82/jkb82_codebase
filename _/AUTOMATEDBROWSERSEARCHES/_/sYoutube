@@ -1,0 +1,6 @@
+xdg-open https://www.youtube.com/results?search_query=$1
+xdg-open https://www.youtube.com/results?search_query=$2
+xdg-open https://www.youtube.com/results?search_query=$3
+xdg-open https://www.youtube.com/results?search_query=$4
+xdg-open https://www.youtube.com/results?search_query=$5
+xdg-open https://www.youtube.com/results?search_query=$6

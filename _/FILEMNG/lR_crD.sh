@@ -1,0 +1,1 @@
+lR.sh && curDir.sh

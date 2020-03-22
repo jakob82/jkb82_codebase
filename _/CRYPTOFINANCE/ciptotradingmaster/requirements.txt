@@ -1,0 +1,8 @@
+theano
+tensorflow
+skelcl
+scikit
+pandas
+numpy
+pycl
+

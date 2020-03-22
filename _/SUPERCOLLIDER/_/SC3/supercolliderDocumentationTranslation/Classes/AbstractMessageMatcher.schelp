@@ -1,0 +1,25 @@
+CLASS:: AbstractMessageMatcher
+summary:: Faz corresponder mensagens de entrada a funções específicas
+categories:: External Control>Abstract Classes
+related:: Classes/AbstractResponderFunc, Classes/AbstractWrappingDispatcher
+
+DESCRIPTION::
+Instâncias de subclasses de  AbstractMessageMatcher são usadas por subclasses de link::Classes/AbstractWrappingDispatcher:: para corresponder múltiplos parâmetros de mensagens de entrada (por exemplo, OSC e MIDI) para instanciar as subclasses do link::Classes/AbstractResponderFunc::. Esta classe e as suas subclasses são privadas e normalmente os utilizadores não devem necessitar de evoca-las directamente.
+
+CLASSMETHODS::
+
+INSTANCEMETHODS::
+
+METHOD:: func
+Obtem ou define a resposta deste objecto a link::Classes/Function::.
+
+returns:: Uma link::Classes/Function:: ou projecto similar
+
+METHOD:: value
+Avalia uma mensagem de input e analize a presença ou não de correspondência. As subclasses devem sobrepor-se a esta mensagem para tomar argumentos próprios. Se uma função for encontrada, este método deve, hipoteticamente evocar um valor das func deste objecto, passadndo a mensagem, para os argumentos apropriados.
+
+METHOD:: valueArray
+Como o link::#-value:: acima, mas com argumentos passados como uma única link::Classes/Array::. Este método é necessáriopara que subclasses possam trabalhar em FunctionLists.
+
+argument:: args
+Um link::Classes/Array:: contendo a mensagem em termos apropriados.

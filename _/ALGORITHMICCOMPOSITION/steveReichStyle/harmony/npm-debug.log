@@ -1,0 +1,906 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'node', 'midi' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData midi
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 silly fetchNamedPackageData midi
+15 silly mapToRegistry name midi
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/midi
+19 verbose request uri https://registry.npmjs.org/node
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 5:41:10 PM
+22 verbose request id 41466ac2550608bb
+23 http request GET https://registry.npmjs.org/node
+24 verbose request uri https://registry.npmjs.org/midi
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 5:41:10 PM
+27 verbose etag W/"53728fdf0238d06c695cefdbb2f92aa3"
+28 verbose lastModified Sun, 27 May 2018 08:02:53 GMT
+29 http request GET https://registry.npmjs.org/midi
+30 http 304 https://registry.npmjs.org/midi
+31 verbose headers { date: 'Sat, 06 Jul 2019 16:41:10 GMT',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'set-cookie':
+31 verbose headers    [ '__cfduid=d4799414d55d9215c433df533158b870a1562431270; expires=Sun, 05-Jul-20 16:41:10 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+31 verbose headers   'cf-cache-status': 'HIT',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'cf-ray': '4f23064ec98cda7e-LIS',
+31 verbose headers   age: '36',
+31 verbose headers   etag: '"53728fdf0238d06c695cefdbb2f92aa3"',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   'last-modified': 'Sun, 27 May 2018 08:02:53 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   server: 'cloudflare' }
+32 silly get cb [ 304,
+32 silly get   { date: 'Sat, 06 Jul 2019 16:41:10 GMT',
+32 silly get     connection: 'keep-alive',
+32 silly get     'set-cookie':
+32 silly get      [ '__cfduid=d4799414d55d9215c433df533158b870a1562431270; expires=Sun, 05-Jul-20 16:41:10 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+32 silly get     'cf-cache-status': 'HIT',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'cf-ray': '4f23064ec98cda7e-LIS',
+32 silly get     age: '36',
+32 silly get     etag: '"53728fdf0238d06c695cefdbb2f92aa3"',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     'last-modified': 'Sun, 27 May 2018 08:02:53 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     server: 'cloudflare' } ]
+33 verbose etag https://registry.npmjs.org/midi from cache
+34 verbose get saving midi to /home/tmm88/.npm/registry.npmjs.org/midi/.cache.json
+35 http 200 https://registry.npmjs.org/node
+36 verbose headers { date: 'Sat, 06 Jul 2019 16:41:10 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'set-cookie':
+36 verbose headers    [ '__cfduid=dcd1f9b92db82e23c027d0961fc7d319c1562431270; expires=Sun, 05-Jul-20 16:41:10 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+36 verbose headers   'cf-cache-status': 'REVALIDATED',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'cf-ray': '4f23064ec8a5da86-LIS',
+36 verbose headers   etag: 'W/"04867d7939ba1631128f174cafd607f1"',
+36 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 verbose headers   'last-modified': 'Thu, 04 Jul 2019 02:01:55 GMT',
+36 verbose headers   vary: 'accept-encoding, accept',
+36 verbose headers   'x-amz-meta-rev': '483-964408f14c0301d3625c5c4d702f00b2',
+36 verbose headers   server: 'cloudflare',
+36 verbose headers   'content-encoding': 'gzip' }
+37 silly get cb [ 200,
+37 silly get   { date: 'Sat, 06 Jul 2019 16:41:10 GMT',
+37 silly get     'content-type': 'application/json',
+37 silly get     'transfer-encoding': 'chunked',
+37 silly get     connection: 'keep-alive',
+37 silly get     'set-cookie':
+37 silly get      [ '__cfduid=dcd1f9b92db82e23c027d0961fc7d319c1562431270; expires=Sun, 05-Jul-20 16:41:10 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+37 silly get     'cf-cache-status': 'REVALIDATED',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'cf-ray': '4f23064ec8a5da86-LIS',
+37 silly get     etag: 'W/"04867d7939ba1631128f174cafd607f1"',
+37 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 silly get     'last-modified': 'Thu, 04 Jul 2019 02:01:55 GMT',
+37 silly get     vary: 'accept-encoding, accept',
+37 silly get     'x-amz-meta-rev': '483-964408f14c0301d3625c5c4d702f00b2',
+37 silly get     server: 'cloudflare',
+37 silly get     'content-encoding': 'gzip' } ]
+38 verbose get saving node to /home/tmm88/.npm/registry.npmjs.org/node/.cache.json
+39 silly install normalizeTree
+40 silly loadCurrentTree Finishing
+41 silly loadIdealTree Starting
+42 silly install loadIdealTree
+43 silly cloneCurrentTree Starting
+44 silly install cloneCurrentTreeToIdealTree
+45 silly cloneCurrentTree Finishing
+46 silly loadShrinkwrap Starting
+47 silly install loadShrinkwrap
+48 silly loadShrinkwrap Finishing
+49 silly loadAllDepsIntoIdealTree Starting
+50 silly install loadAllDepsIntoIdealTree
+51 silly resolveWithNewModule midi@0.9.5 checking installable status
+52 silly cache add args [ 'midi', null ]
+53 verbose cache add spec midi
+54 silly resolveWithNewModule node@12.6.0 checking installable status
+55 silly cache add args [ 'node', null ]
+56 verbose cache add spec node
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'midi',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'midi',
+57 silly cache add   rawSpec: '',
+57 silly cache add   spec: 'latest',
+57 silly cache add   type: 'tag' }
+58 silly addNamed midi@latest
+59 verbose addNamed "latest" is being treated as a dist-tag for midi
+60 info addNameTag [ 'midi', 'latest' ]
+61 silly mapToRegistry name midi
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/midi
+65 verbose addNameTag registry:https://registry.npmjs.org/midi not in flight; fetching
+66 silly cache add parsed spec Result {
+66 silly cache add   raw: 'node',
+66 silly cache add   scope: null,
+66 silly cache add   name: 'node',
+66 silly cache add   rawSpec: '',
+66 silly cache add   spec: 'latest',
+66 silly cache add   type: 'tag' }
+67 silly addNamed node@latest
+68 verbose addNamed "latest" is being treated as a dist-tag for node
+69 info addNameTag [ 'node', 'latest' ]
+70 silly mapToRegistry name node
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/node
+74 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+75 verbose get https://registry.npmjs.org/midi not expired, no request
+76 silly addNameTag next cb for midi with tag latest
+77 silly addNamed midi@0.9.5
+78 verbose addNamed "0.9.5" is a plain semver version for midi
+79 verbose get https://registry.npmjs.org/node not expired, no request
+80 silly addNameTag next cb for node with tag latest
+81 silly addNamed node@12.6.0
+82 verbose addNamed "12.6.0" is a plain semver version for node
+83 silly mapToRegistry name node
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/node
+87 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-12.6.0.tgz not in flight; adding
+88 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-12.6.0.tgz',
+88 verbose addRemoteTarball   '19cff21c4753c771055392a06e36076df97ee78a' ]
+89 silly cache afterAdd midi@0.9.5
+90 verbose afterAdd /home/tmm88/.npm/midi/0.9.5/package/package.json not in flight; writing
+91 info retry fetch attempt 1 at 5:41:11 PM
+92 info attempt registry request try #1 at 5:41:11 PM
+93 http fetch GET https://registry.npmjs.org/node/-/node-12.6.0.tgz
+94 verbose afterAdd /home/tmm88/.npm/midi/0.9.5/package/package.json written
+95 http fetch 200 https://registry.npmjs.org/node/-/node-12.6.0.tgz
+96 silly fetchAndShaCheck shasum 19cff21c4753c771055392a06e36076df97ee78a
+97 verbose addTmpTarball /tmp/npm-1167-103be2e5/registry.npmjs.org/node/-/node-12.6.0.tgz not in flight; adding
+98 verbose addTmpTarball already have metadata; skipping unpack for node@12.6.0
+99 silly cache afterAdd node@12.6.0
+100 verbose afterAdd /home/tmm88/.npm/node/12.6.0/package/package.json not in flight; writing
+101 verbose afterAdd /home/tmm88/.npm/node/12.6.0/package/package.json written
+102 silly fetchNamedPackageData bindings
+103 silly mapToRegistry name bindings
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/bindings
+107 silly fetchNamedPackageData nan
+108 silly mapToRegistry name nan
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/nan
+112 verbose request uri https://registry.npmjs.org/bindings
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 5:41:11 PM
+115 verbose etag W/"8dfe34716157e36596b3ba5e5fcfb617"
+116 verbose lastModified Wed, 27 Feb 2019 22:54:48 GMT
+117 http request GET https://registry.npmjs.org/bindings
+118 verbose request uri https://registry.npmjs.org/nan
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 5:41:11 PM
+121 verbose etag W/"a665a85bde8d605dbf85b9013ecf702b"
+122 verbose lastModified Thu, 16 May 2019 19:11:40 GMT
+123 http request GET https://registry.npmjs.org/nan
+124 http 304 https://registry.npmjs.org/bindings
+125 verbose headers { date: 'Sat, 06 Jul 2019 16:41:11 GMT',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'set-cookie':
+125 verbose headers    [ '__cfduid=d943b356aa3ac7a508eb519356159b3f41562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+125 verbose headers   'cf-cache-status': 'HIT',
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   'cf-ray': '4f2306551d6fda86-LIS',
+125 verbose headers   age: '373',
+125 verbose headers   etag: '"8dfe34716157e36596b3ba5e5fcfb617"',
+125 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+125 verbose headers   'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+125 verbose headers   vary: 'accept-encoding, accept',
+125 verbose headers   'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+125 verbose headers   server: 'cloudflare' }
+126 silly get cb [ 304,
+126 silly get   { date: 'Sat, 06 Jul 2019 16:41:11 GMT',
+126 silly get     connection: 'keep-alive',
+126 silly get     'set-cookie':
+126 silly get      [ '__cfduid=d943b356aa3ac7a508eb519356159b3f41562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+126 silly get     'cf-cache-status': 'HIT',
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     'cf-ray': '4f2306551d6fda86-LIS',
+126 silly get     age: '373',
+126 silly get     etag: '"8dfe34716157e36596b3ba5e5fcfb617"',
+126 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 silly get     'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+126 silly get     vary: 'accept-encoding, accept',
+126 silly get     'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+126 silly get     server: 'cloudflare' } ]
+127 verbose etag https://registry.npmjs.org/bindings from cache
+128 verbose get saving bindings to /home/tmm88/.npm/registry.npmjs.org/bindings/.cache.json
+129 http 304 https://registry.npmjs.org/nan
+130 verbose headers { date: 'Sat, 06 Jul 2019 16:41:11 GMT',
+130 verbose headers   connection: 'keep-alive',
+130 verbose headers   'set-cookie':
+130 verbose headers    [ '__cfduid=df53ece0ad0c9f482e17e405834ff61471562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+130 verbose headers   'cf-cache-status': 'HIT',
+130 verbose headers   'cache-control': 'max-age=300',
+130 verbose headers   'cf-ray': '4f2306552f46da7e-LIS',
+130 verbose headers   age: '4387',
+130 verbose headers   etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+130 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+130 verbose headers   'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+130 verbose headers   vary: 'accept-encoding, accept',
+130 verbose headers   'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+130 verbose headers   server: 'cloudflare' }
+131 silly get cb [ 304,
+131 silly get   { date: 'Sat, 06 Jul 2019 16:41:11 GMT',
+131 silly get     connection: 'keep-alive',
+131 silly get     'set-cookie':
+131 silly get      [ '__cfduid=df53ece0ad0c9f482e17e405834ff61471562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+131 silly get     'cf-cache-status': 'HIT',
+131 silly get     'cache-control': 'max-age=300',
+131 silly get     'cf-ray': '4f2306552f46da7e-LIS',
+131 silly get     age: '4387',
+131 silly get     etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+131 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+131 silly get     'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+131 silly get     vary: 'accept-encoding, accept',
+131 silly get     'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+131 silly get     server: 'cloudflare' } ]
+132 verbose etag https://registry.npmjs.org/nan from cache
+133 verbose get saving nan to /home/tmm88/.npm/registry.npmjs.org/nan/.cache.json
+134 silly resolveWithNewModule bindings@1.2.1 checking installable status
+135 silly cache add args [ 'bindings@~1.2.1', null ]
+136 verbose cache add spec bindings@~1.2.1
+137 silly cache add parsed spec Result {
+137 silly cache add   raw: 'bindings@~1.2.1',
+137 silly cache add   scope: null,
+137 silly cache add   name: 'bindings',
+137 silly cache add   rawSpec: '~1.2.1',
+137 silly cache add   spec: '>=1.2.1 <1.3.0',
+137 silly cache add   type: 'range' }
+138 silly addNamed bindings@>=1.2.1 <1.3.0
+139 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for bindings
+140 silly addNameRange { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: false }
+141 silly mapToRegistry name bindings
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/bindings
+145 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+146 verbose get https://registry.npmjs.org/bindings not expired, no request
+147 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: true }
+148 silly addNameRange versions [ 'bindings',
+148 silly addNameRange   [ '0.0.1',
+148 silly addNameRange     '0.1.0',
+148 silly addNameRange     '0.1.1',
+148 silly addNameRange     '0.2.0',
+148 silly addNameRange     '0.2.1',
+148 silly addNameRange     '0.2.2',
+148 silly addNameRange     '0.2.3',
+148 silly addNameRange     '0.2.4',
+148 silly addNameRange     '0.3.0',
+148 silly addNameRange     '0.4.0',
+148 silly addNameRange     '1.0.0',
+148 silly addNameRange     '1.1.0',
+148 silly addNameRange     '1.1.1',
+148 silly addNameRange     '1.2.0',
+148 silly addNameRange     '1.2.1',
+148 silly addNameRange     '1.3.0',
+148 silly addNameRange     '1.3.1',
+148 silly addNameRange     '1.4.0',
+148 silly addNameRange     '1.5.0' ] ]
+149 silly addNamed bindings@1.2.1
+150 verbose addNamed "1.2.1" is a plain semver version for bindings
+151 silly resolveWithNewModule nan@2.14.0 checking installable status
+152 silly cache add args [ 'nan@^2.3.3', null ]
+153 verbose cache add spec nan@^2.3.3
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'nan@^2.3.3',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'nan',
+154 silly cache add   rawSpec: '^2.3.3',
+154 silly cache add   spec: '>=2.3.3 <3.0.0',
+154 silly cache add   type: 'range' }
+155 silly addNamed nan@>=2.3.3 <3.0.0
+156 verbose addNamed ">=2.3.3 <3.0.0" is a valid semver range for nan
+157 silly addNameRange { name: 'nan', range: '>=2.3.3 <3.0.0', hasData: false }
+158 silly mapToRegistry name nan
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry uri https://registry.npmjs.org/nan
+162 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+163 silly cache afterAdd bindings@1.2.1
+164 verbose afterAdd /home/tmm88/.npm/bindings/1.2.1/package/package.json not in flight; writing
+165 verbose get https://registry.npmjs.org/nan not expired, no request
+166 silly addNameRange number 2 { name: 'nan', range: '>=2.3.3 <3.0.0', hasData: true }
+167 silly addNameRange versions [ 'nan',
+167 silly addNameRange   [ '0.3.0-wip',
+167 silly addNameRange     '0.3.0-wip2',
+167 silly addNameRange     '0.3.0',
+167 silly addNameRange     '0.3.1',
+167 silly addNameRange     '0.3.2',
+167 silly addNameRange     '0.4.0',
+167 silly addNameRange     '0.4.1',
+167 silly addNameRange     '0.4.2',
+167 silly addNameRange     '0.4.3',
+167 silly addNameRange     '0.4.4',
+167 silly addNameRange     '0.5.0',
+167 silly addNameRange     '0.5.1',
+167 silly addNameRange     '0.5.2',
+167 silly addNameRange     '0.6.0',
+167 silly addNameRange     '0.7.0',
+167 silly addNameRange     '0.7.1',
+167 silly addNameRange     '0.8.0',
+167 silly addNameRange     '1.0.0',
+167 silly addNameRange     '1.1.0',
+167 silly addNameRange     '1.1.1',
+167 silly addNameRange     '1.1.2',
+167 silly addNameRange     '1.2.0',
+167 silly addNameRange     '1.3.0',
+167 silly addNameRange     '1.4.0',
+167 silly addNameRange     '1.4.1',
+167 silly addNameRange     '1.5.0',
+167 silly addNameRange     '1.4.2',
+167 silly addNameRange     '1.4.3',
+167 silly addNameRange     '1.5.1',
+167 silly addNameRange     '1.5.2',
+167 silly addNameRange     '1.6.0',
+167 silly addNameRange     '1.5.3',
+167 silly addNameRange     '1.6.1',
+167 silly addNameRange     '1.6.2',
+167 silly addNameRange     '1.7.0',
+167 silly addNameRange     '1.8.0',
+167 silly addNameRange     '1.8.1',
+167 silly addNameRange     '1.8.2',
+167 silly addNameRange     '1.8.3',
+167 silly addNameRange     '1.8.4',
+167 silly addNameRange     '1.9.0',
+167 silly addNameRange     '2.0.0',
+167 silly addNameRange     '2.0.1',
+167 silly addNameRange     '2.0.2',
+167 silly addNameRange     '2.0.3',
+167 silly addNameRange     '2.0.4',
+167 silly addNameRange     '2.0.5',
+167 silly addNameRange     '2.0.6',
+167 silly addNameRange     '2.0.7',
+167 silly addNameRange     '2.0.8',
+167 silly addNameRange     '2.0.9',
+167 silly addNameRange     '2.1.0',
+167 silly addNameRange     '2.2.0',
+167 silly addNameRange     '2.2.1',
+167 silly addNameRange     '2.3.0',
+167 silly addNameRange     '2.3.1',
+167 silly addNameRange     '2.3.2',
+167 silly addNameRange     '2.3.3',
+167 silly addNameRange     '2.3.4',
+167 silly addNameRange     '2.3.5',
+167 silly addNameRange     '2.4.0',
+167 silly addNameRange     '2.5.0',
+167 silly addNameRange     '2.5.1',
+167 silly addNameRange     '2.6.0',
+167 silly addNameRange     '2.6.1',
+167 silly addNameRange     '2.6.2',
+167 silly addNameRange     '2.7.0',
+167 silly addNameRange     '2.8.0',
+167 silly addNameRange     '2.9.1',
+167 silly addNameRange     '2.9.2',
+167 silly addNameRange     '2.10.0',
+167 silly addNameRange     '2.11.0',
+167 silly addNameRange     '2.11.1',
+167 silly addNameRange     '2.12.0',
+167 silly addNameRange     '2.12.1',
+167 silly addNameRange     '2.13.0',
+167 silly addNameRange     '2.13.1',
+167 silly addNameRange     '2.13.2',
+167 silly addNameRange     '2.14.0' ] ]
+168 silly addNamed nan@2.14.0
+169 verbose addNamed "2.14.0" is a plain semver version for nan
+170 silly cache afterAdd nan@2.14.0
+171 verbose afterAdd /home/tmm88/.npm/nan/2.14.0/package/package.json not in flight; writing
+172 verbose afterAdd /home/tmm88/.npm/bindings/1.2.1/package/package.json written
+173 verbose afterAdd /home/tmm88/.npm/nan/2.14.0/package/package.json written
+174 silly fetchNamedPackageData node-bin-setup
+175 silly mapToRegistry name node-bin-setup
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+179 verbose request uri https://registry.npmjs.org/node-bin-setup
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 5:41:11 PM
+182 http request GET https://registry.npmjs.org/node-bin-setup
+183 http 200 https://registry.npmjs.org/node-bin-setup
+184 verbose headers { date: 'Sat, 06 Jul 2019 16:41:12 GMT',
+184 verbose headers   'content-type': 'application/json; charset=UTF-8',
+184 verbose headers   'transfer-encoding': 'chunked',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'set-cookie':
+184 verbose headers    [ '__cfduid=d943b356aa3ac7a508eb519356159b3f41562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+184 verbose headers   'cf-cache-status': 'REVALIDATED',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   'cf-ray': '4f230655ae74da86-LIS',
+184 verbose headers   etag: 'W/"696d6ec470fda56a33885508a280edab"',
+184 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+184 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+184 verbose headers   vary: 'accept-encoding, accept',
+184 verbose headers   server: 'cloudflare',
+184 verbose headers   'content-encoding': 'gzip' }
+185 silly get cb [ 200,
+185 silly get   { date: 'Sat, 06 Jul 2019 16:41:12 GMT',
+185 silly get     'content-type': 'application/json; charset=UTF-8',
+185 silly get     'transfer-encoding': 'chunked',
+185 silly get     connection: 'keep-alive',
+185 silly get     'set-cookie':
+185 silly get      [ '__cfduid=d943b356aa3ac7a508eb519356159b3f41562431271; expires=Sun, 05-Jul-20 16:41:11 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+185 silly get     'cf-cache-status': 'REVALIDATED',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     'cf-ray': '4f230655ae74da86-LIS',
+185 silly get     etag: 'W/"696d6ec470fda56a33885508a280edab"',
+185 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+185 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+185 silly get     vary: 'accept-encoding, accept',
+185 silly get     server: 'cloudflare',
+185 silly get     'content-encoding': 'gzip' } ]
+186 verbose get saving node-bin-setup to /home/tmm88/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+187 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+188 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+189 verbose cache add spec node-bin-setup@^1.0.0
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'node-bin-setup@^1.0.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'node-bin-setup',
+190 silly cache add   rawSpec: '^1.0.0',
+190 silly cache add   spec: '>=1.0.0 <2.0.0',
+190 silly cache add   type: 'range' }
+191 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+192 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+193 silly addNameRange { name: 'node-bin-setup',
+193 silly addNameRange   range: '>=1.0.0 <2.0.0',
+193 silly addNameRange   hasData: false }
+194 silly mapToRegistry name node-bin-setup
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+198 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+199 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+200 silly addNameRange number 2 { name: 'node-bin-setup',
+200 silly addNameRange   range: '>=1.0.0 <2.0.0',
+200 silly addNameRange   hasData: true }
+201 silly addNameRange versions [ 'node-bin-setup',
+201 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+202 silly addNamed node-bin-setup@1.0.6
+203 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+204 silly mapToRegistry name node-bin-setup
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+208 verbose addRemoteTarball https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+209 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz',
+209 verbose addRemoteTarball   '4b5c9bb937ece702d7069b36ca78af4684677528' ]
+210 info retry fetch attempt 1 at 5:41:12 PM
+211 info attempt registry request try #1 at 5:41:12 PM
+212 http fetch GET https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+213 http fetch 200 https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+214 silly fetchAndShaCheck shasum 4b5c9bb937ece702d7069b36ca78af4684677528
+215 verbose addTmpTarball /tmp/npm-1167-103be2e5/registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+216 verbose addTmpTarball already have metadata; skipping unpack for node-bin-setup@1.0.6
+217 silly cache afterAdd node-bin-setup@1.0.6
+218 verbose afterAdd /home/tmm88/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+219 verbose afterAdd /home/tmm88/.npm/node-bin-setup/1.0.6/package/package.json written
+220 silly loadAllDepsIntoIdealTree Finishing
+221 silly idealTree:prePrune harmony@1.0.0
+221 silly idealTree:prePrune ├── bindings@1.2.1
+221 silly idealTree:prePrune ├── midi@0.9.5
+221 silly idealTree:prePrune ├── nan@2.14.0
+221 silly idealTree:prePrune ├── node-bin-setup@1.0.6
+221 silly idealTree:prePrune └── node@12.6.0
+222 silly loadIdealTree Finishing
+223 silly currentTree harmony@1.0.0
+224 silly idealTree harmony@1.0.0
+224 silly idealTree ├── bindings@1.2.1
+224 silly idealTree ├── midi@0.9.5
+224 silly idealTree ├── nan@2.14.0
+224 silly idealTree ├── node-bin-setup@1.0.6
+224 silly idealTree └── node@12.6.0
+225 silly generateActionsToTake Starting
+226 silly install generateActionsToTake
+227 silly generateActionsToTake Finishing
+228 silly diffTrees action count 5
+229 silly diffTrees add bindings@1.2.1
+230 silly diffTrees add nan@2.14.0
+231 silly diffTrees add node-bin-setup@1.0.6
+232 silly diffTrees add midi@0.9.5
+233 silly diffTrees add node@12.6.0
+234 silly decomposeActions action count 40
+235 silly decomposeActions fetch bindings@1.2.1
+236 silly decomposeActions extract bindings@1.2.1
+237 silly decomposeActions test bindings@1.2.1
+238 silly decomposeActions preinstall bindings@1.2.1
+239 silly decomposeActions build bindings@1.2.1
+240 silly decomposeActions install bindings@1.2.1
+241 silly decomposeActions postinstall bindings@1.2.1
+242 silly decomposeActions finalize bindings@1.2.1
+243 silly decomposeActions fetch nan@2.14.0
+244 silly decomposeActions extract nan@2.14.0
+245 silly decomposeActions test nan@2.14.0
+246 silly decomposeActions preinstall nan@2.14.0
+247 silly decomposeActions build nan@2.14.0
+248 silly decomposeActions install nan@2.14.0
+249 silly decomposeActions postinstall nan@2.14.0
+250 silly decomposeActions finalize nan@2.14.0
+251 silly decomposeActions fetch node-bin-setup@1.0.6
+252 silly decomposeActions extract node-bin-setup@1.0.6
+253 silly decomposeActions test node-bin-setup@1.0.6
+254 silly decomposeActions preinstall node-bin-setup@1.0.6
+255 silly decomposeActions build node-bin-setup@1.0.6
+256 silly decomposeActions install node-bin-setup@1.0.6
+257 silly decomposeActions postinstall node-bin-setup@1.0.6
+258 silly decomposeActions finalize node-bin-setup@1.0.6
+259 silly decomposeActions fetch midi@0.9.5
+260 silly decomposeActions extract midi@0.9.5
+261 silly decomposeActions test midi@0.9.5
+262 silly decomposeActions preinstall midi@0.9.5
+263 silly decomposeActions build midi@0.9.5
+264 silly decomposeActions install midi@0.9.5
+265 silly decomposeActions postinstall midi@0.9.5
+266 silly decomposeActions finalize midi@0.9.5
+267 silly decomposeActions fetch node@12.6.0
+268 silly decomposeActions extract node@12.6.0
+269 silly decomposeActions test node@12.6.0
+270 silly decomposeActions preinstall node@12.6.0
+271 silly decomposeActions build node@12.6.0
+272 silly decomposeActions install node@12.6.0
+273 silly decomposeActions postinstall node@12.6.0
+274 silly decomposeActions finalize node@12.6.0
+275 silly executeActions Starting
+276 silly install executeActions
+277 silly doSerial global-install 0
+278 silly doParallel fetch 5
+279 verbose lock using /home/tmm88/.npm/_locks/staging-318dab1286c20aef.lock for /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging
+280 silly doParallel extract 5
+281 silly extract bindings@1.2.1
+282 silly extract nan@2.14.0
+283 silly extract node-bin-setup@1.0.6
+284 silly extract midi@0.9.5
+285 silly extract node@12.6.0
+286 verbose unbuild node_modules/.staging/bindings-d66d5b6b
+287 verbose unbuild node_modules/.staging/node-bin-setup-e66e2219
+288 verbose unbuild node_modules/.staging/nan-0661349c
+289 verbose unbuild node_modules/.staging/midi-4ab35ef7
+290 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b is being purged from base /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+291 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b
+292 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219 is being purged from base /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+293 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219
+294 verbose unbuild node_modules/.staging/node-4892cf17
+295 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c is being purged from base /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+296 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c
+297 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7 is being purged from base /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+298 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7
+299 verbose tar unpack /home/tmm88/.npm/bindings/1.2.1/package.tgz
+300 verbose tar unpacking to /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b
+301 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b is being purged
+302 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b
+303 verbose tar unpack /home/tmm88/.npm/node-bin-setup/1.0.6/package.tgz
+304 verbose tar unpacking to /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219
+305 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219 is being purged
+306 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219
+307 verbose tar unpack /home/tmm88/.npm/nan/2.14.0/package.tgz
+308 verbose tar unpacking to /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c
+309 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c is being purged
+310 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c
+311 verbose tar unpack /home/tmm88/.npm/midi/0.9.5/package.tgz
+312 verbose tar unpacking to /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7
+313 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7 is being purged
+314 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7
+315 silly gunzTarPerm modes [ '777', '666' ]
+316 silly gunzTarPerm modes [ '777', '666' ]
+317 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17 is being purged from base /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+318 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17
+319 silly gunzTarPerm modes [ '777', '666' ]
+320 silly gunzTarPerm modes [ '777', '666' ]
+321 verbose tar unpack /home/tmm88/.npm/node/12.6.0/package.tgz
+322 verbose tar unpacking to /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17
+323 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17 is being purged
+324 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17
+325 silly gunzTarPerm modes [ '777', '666' ]
+326 silly gunzTarPerm extractEntry package.json
+327 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+328 silly gunzTarPerm extractEntry package.json
+329 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+330 silly gunzTarPerm extractEntry package.json
+331 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+332 silly gunzTarPerm extractEntry package.json
+333 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+334 silly gunzTarPerm extractEntry package.json
+335 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+336 silly gunzTarPerm extractEntry README.md
+337 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+338 silly gunzTarPerm extractEntry bindings.js
+339 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry CHANGELOG.md
+341 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+342 silly gunzTarPerm extractEntry include_dirs.js
+343 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+344 silly gunzTarPerm extractEntry index.js
+345 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry .npmignore
+347 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+348 silly gunzTarPerm extractEntry README.md
+349 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+350 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+351 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+352 silly gunzTarPerm extractEntry README.md
+353 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+354 silly gunzTarPerm extractEntry LICENSE
+355 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+356 silly gunzTarPerm extractEntry midi.js
+357 silly gunzTarPerm modified mode [ 'midi.js', 420, 438 ]
+358 silly gunzTarPerm extractEntry LICENSE.md
+359 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+360 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+361 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+362 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+363 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+364 silly gunzTarPerm extractEntry nan_callbacks.h
+365 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+366 silly gunzTarPerm extractEntry binding.gyp
+367 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+368 silly gunzTarPerm extractEntry CHANGELOG.md
+369 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+370 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+371 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+372 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+373 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+374 silly gunzTarPerm extractEntry test/virtual-writeStream-test.js
+375 silly gunzTarPerm modified mode [ 'test/virtual-writeStream-test.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry nan_converters.h
+377 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+378 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+379 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 438 ]
+380 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219/node_modules is being purged
+381 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219/node_modules
+382 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+383 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+384 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+385 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+386 silly gunzTarPerm extractEntry nan_json.h
+387 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+388 silly gunzTarPerm extractEntry test/input-test.js
+389 silly gunzTarPerm modified mode [ 'test/input-test.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry test/output-test.js
+391 silly gunzTarPerm modified mode [ 'test/output-test.js', 420, 438 ]
+392 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17/node_modules is being purged
+393 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17/node_modules
+394 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b/node_modules is being purged
+395 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b/node_modules
+396 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+397 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+398 silly gunzTarPerm extractEntry test/unit-tests.js
+399 silly gunzTarPerm modified mode [ 'test/unit-tests.js', 420, 438 ]
+400 silly gunzTarPerm extractEntry test/input-reopen-test.js
+401 silly gunzTarPerm modified mode [ 'test/input-reopen-test.js', 420, 438 ]
+402 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+403 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+404 silly gunzTarPerm extractEntry nan_new.h
+405 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+406 silly gunzTarPerm extractEntry nan_object_wrap.h
+407 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+408 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+409 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+410 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+411 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+412 silly gunzTarPerm extractEntry test/virtual-loopback-test-automated.js
+413 silly gunzTarPerm modified mode [ 'test/virtual-loopback-test-automated.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry test/virtual-loopback-test.js
+415 silly gunzTarPerm modified mode [ 'test/virtual-loopback-test.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry nan_private.h
+417 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+418 silly gunzTarPerm extractEntry nan_string_bytes.h
+419 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+420 silly gunzTarPerm extractEntry test/virtual-output-test.js
+421 silly gunzTarPerm modified mode [ 'test/virtual-output-test.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry test/virtual-readStream-test.js
+423 silly gunzTarPerm modified mode [ 'test/virtual-readStream-test.js', 420, 438 ]
+424 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+425 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+426 silly gunzTarPerm extractEntry test/virtual-input-test.js
+427 silly gunzTarPerm modified mode [ 'test/virtual-input-test.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry test/fixture/144-23-81.bin
+429 silly gunzTarPerm modified mode [ 'test/fixture/144-23-81.bin', 420, 438 ]
+430 silly gunzTarPerm extractEntry nan_weak.h
+431 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+432 silly gunzTarPerm extractEntry nan.h
+433 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+434 silly gunzTarPerm extractEntry .travis.yml
+435 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+436 silly gunzTarPerm extractEntry src/lib/RtMidi/msw/readme
+437 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/msw/readme', 420, 438 ]
+438 silly gunzTarPerm extractEntry src/lib/RtMidi/msw/rtmidilib.sln
+439 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/msw/rtmidilib.sln', 493, 511 ]
+440 silly gunzTarPerm extractEntry src/lib/RtMidi/msw/rtmidilib.vcproj
+441 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/msw/rtmidilib.vcproj', 493, 511 ]
+442 silly gunzTarPerm extractEntry README.md
+443 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+444 silly gunzTarPerm extractEntry doc/asyncworker.md
+445 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+446 silly gunzTarPerm extractEntry doc/buffers.md
+447 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+448 silly gunzTarPerm extractEntry doc/callback.md
+449 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+450 silly gunzTarPerm extractEntry src/lib/RtMidi/Makefile.am
+451 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/Makefile.am', 420, 438 ]
+452 silly gunzTarPerm extractEntry src/lib/RtMidi/RtMidi.h
+453 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/RtMidi.h', 420, 438 ]
+454 silly gunzTarPerm extractEntry src/lib/RtMidi/autogen.sh
+455 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/autogen.sh', 493, 511 ]
+456 silly gunzTarPerm extractEntry src/lib/RtMidi/autom4te.cache/output.0
+457 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/autom4te.cache/output.0', 420, 438 ]
+458 silly gunzTarPerm extractEntry doc/converters.md
+459 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+460 silly gunzTarPerm extractEntry doc/errors.md
+461 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+462 silly gunzTarPerm extractEntry src/lib/RtMidi/autom4te.cache/requests
+463 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/autom4te.cache/requests', 420, 438 ]
+464 silly gunzTarPerm extractEntry src/lib/RtMidi/autom4te.cache/traces.0
+465 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/autom4te.cache/traces.0', 420, 438 ]
+466 silly gunzTarPerm extractEntry doc/json.md
+467 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+468 silly gunzTarPerm extractEntry doc/maybe_types.md
+469 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+470 silly gunzTarPerm extractEntry src/lib/RtMidi/configure.ac
+471 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/configure.ac', 420, 438 ]
+472 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/Makefile.am
+473 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/Makefile.am', 420, 438 ]
+474 silly gunzTarPerm extractEntry doc/methods.md
+475 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+476 silly gunzTarPerm extractEntry doc/new.md
+477 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+478 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/doxygen/Doxyfile
+479 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/doxygen/Doxyfile', 420, 438 ]
+480 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/doxygen/footer.html
+481 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/doxygen/footer.html', 420, 438 ]
+482 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/doxygen/header.html
+483 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/doxygen/header.html', 420, 438 ]
+484 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/doxygen/tutorial.txt
+485 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/doxygen/tutorial.txt', 420, 438 ]
+486 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/images/ccrma.gif
+487 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/images/ccrma.gif', 420, 438 ]
+488 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/images/mcgill.gif
+489 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/images/mcgill.gif', 420, 438 ]
+490 silly gunzTarPerm extractEntry src/lib/RtMidi/doc/release.txt
+491 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/doc/release.txt', 420, 438 ]
+492 silly gunzTarPerm extractEntry src/lib/RtMidi/RtMidi.cpp
+493 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/RtMidi.cpp', 420, 438 ]
+494 silly gunzTarPerm extractEntry src/lib/RtMidi/readme
+495 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/readme', 420, 438 ]
+496 silly gunzTarPerm extractEntry src/lib/RtMidi/rtmidi-config.in
+497 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/rtmidi-config.in', 420, 438 ]
+498 silly gunzTarPerm extractEntry src/lib/RtMidi/rtmidi.pc.in
+499 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/rtmidi.pc.in', 420, 438 ]
+500 silly gunzTarPerm extractEntry src/lib/RtMidi/rtmidi_c.cpp
+501 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/rtmidi_c.cpp', 420, 438 ]
+502 silly gunzTarPerm extractEntry src/lib/RtMidi/rtmidi_c.h
+503 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/rtmidi_c.h', 420, 438 ]
+504 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/midiout.dsp
+505 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/midiout.dsp', 420, 438 ]
+506 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/Debug/.placeholder
+507 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/Debug/.placeholder', 420, 438 ]
+508 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/Release/.placeholder
+509 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/Release/.placeholder', 420, 438 ]
+510 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/RtMidi.dsw
+511 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/RtMidi.dsw', 420, 438 ]
+512 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/cmidiin.cpp
+513 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/cmidiin.cpp', 420, 438 ]
+514 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/cmidiin.dsp
+515 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/cmidiin.dsp', 420, 438 ]
+516 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/midiout.cpp
+517 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/midiout.cpp', 420, 438 ]
+518 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/Makefile.am
+519 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/Makefile.am', 420, 438 ]
+520 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/midiprobe.cpp
+521 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/midiprobe.cpp', 420, 438 ]
+522 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/midiprobe.dsp
+523 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/midiprobe.dsp', 420, 438 ]
+524 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/qmidiin.cpp
+525 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/qmidiin.cpp', 420, 438 ]
+526 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/qmidiin.dsp
+527 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/qmidiin.dsp', 420, 438 ]
+528 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/sysextest.cpp
+529 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/sysextest.cpp', 420, 438 ]
+530 silly gunzTarPerm extractEntry src/lib/RtMidi/tests/sysextest.dsp
+531 silly gunzTarPerm modified mode [ 'src/lib/RtMidi/tests/sysextest.dsp', 420, 438 ]
+532 silly gunzTarPerm extractEntry src/node-midi.cpp
+533 silly gunzTarPerm modified mode [ 'src/node-midi.cpp', 420, 438 ]
+534 silly gunzTarPerm extractEntry v0.7.1
+535 silly gunzTarPerm modified mode [ 'v0.7.1', 420, 438 ]
+536 silly gunzTarPerm extractEntry doc/node_misc.md
+537 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+538 silly gunzTarPerm extractEntry doc/object_wrappers.md
+539 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+540 silly gunzTarPerm extractEntry doc/persistent.md
+541 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+542 silly gunzTarPerm extractEntry doc/scopes.md
+543 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+544 silly gunzTarPerm extractEntry doc/script.md
+545 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+546 silly gunzTarPerm extractEntry doc/string_bytes.md
+547 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+548 silly gunzTarPerm extractEntry doc/v8_internals.md
+549 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+550 silly gunzTarPerm extractEntry doc/v8_misc.md
+551 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+552 silly gunzTarPerm extractEntry tools/1to2.js
+553 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+554 silly gunzTarPerm extractEntry tools/package.json
+555 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+556 silly gunzTarPerm extractEntry tools/README.md
+557 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+558 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c/node_modules is being purged
+559 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c/node_modules
+560 silly gentlyRm /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7/node_modules is being purged
+561 verbose gentlyRm don't care about contents; nuking /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7/node_modules
+562 silly doParallel preinstall 5
+563 silly preinstall bindings@1.2.1 /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/bindings-d66d5b6b
+564 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+565 silly preinstall nan@2.14.0 /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/nan-0661349c
+566 info lifecycle nan@2.14.0~preinstall: nan@2.14.0
+567 silly preinstall node-bin-setup@1.0.6 /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-bin-setup-e66e2219
+568 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+569 silly preinstall midi@0.9.5 /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/midi-4ab35ef7
+570 info lifecycle midi@0.9.5~preinstall: midi@0.9.5
+571 silly preinstall node@12.6.0 /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17
+572 info lifecycle node@12.6.0~preinstall: node@12.6.0
+573 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+574 silly lifecycle nan@2.14.0~preinstall: no script for preinstall, continuing
+575 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+576 silly lifecycle midi@0.9.5~preinstall: no script for preinstall, continuing
+577 verbose lifecycle node@12.6.0~preinstall: unsafe-perm in lifecycle true
+578 verbose lifecycle node@12.6.0~preinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17/node_modules/.bin:/home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2019.522.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/selfd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/selfd/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+579 verbose lifecycle node@12.6.0~preinstall: CWD: /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging/node-4892cf17
+580 silly lifecycle node@12.6.0~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+581 silly lifecycle node@12.6.0~preinstall: Returned: code: 1  signal: null
+582 info lifecycle node@12.6.0~preinstall: Failed to exec preinstall script
+583 verbose unlock done using /home/tmm88/.npm/_locks/staging-318dab1286c20aef.lock for /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony/node_modules/.staging
+584 silly rollbackFailedOptional Starting
+585 silly rollbackFailedOptional Finishing
+586 silly runTopLevelLifecycles Starting
+587 silly runTopLevelLifecycles Finishing
+588 silly install printInstalled
+589 warn harmony@1.0.0 No description
+590 warn harmony@1.0.0 No repository field.
+591 verbose stack Error: node@12.6.0 preinstall: `node installArchSpecificPackage`
+591 verbose stack Exit status 1
+591 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+591 verbose stack     at emitTwo (events.js:126:13)
+591 verbose stack     at EventEmitter.emit (events.js:214:7)
+591 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+591 verbose stack     at emitTwo (events.js:126:13)
+591 verbose stack     at ChildProcess.emit (events.js:214:7)
+591 verbose stack     at maybeClose (internal/child_process.js:925:16)
+591 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+592 verbose pkgid node@12.6.0
+593 verbose cwd /home/tmm88/Workspace/tmm88_toolbox/_/javascript/algorithmicCompositionFramework/steveReichStyle/harmony
+594 error Linux 4.4.0-18362-Microsoft
+595 error argv "/usr/bin/node" "/usr/bin/npm" "install" "node" "midi"
+596 error node v8.10.0
+597 error npm  v3.5.2
+598 error code ELIFECYCLE
+599 error node@12.6.0 preinstall: `node installArchSpecificPackage`
+599 error Exit status 1
+600 error Failed at the node@12.6.0 preinstall script 'node installArchSpecificPackage'.
+600 error Make sure you have the latest version of node.js and npm installed.
+600 error If you do, this is most likely a problem with the node package,
+600 error not with npm itself.
+600 error Tell the author that this fails on your system:
+600 error     node installArchSpecificPackage
+600 error You can get information on how to open an issue for this project with:
+600 error     npm bugs node
+600 error Or if that isn't available, you can get their info via:
+600 error     npm owner ls node
+600 error There is likely additional logging output above.
+601 verbose exit [ 1, true ]

@@ -1,0 +1,1 @@
+sudo git status && sudo git add . && git sudo git commit -m $(pwgen 100 1) && sudo git push

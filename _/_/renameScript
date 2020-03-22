@@ -1,0 +1,19 @@
+mv $1 $2
+fgp
+pmt
+tmm_lR
+gs
+ga
+gs
+ga
+tmm_lR
+tail $(ls)
+clear
+iCode
+clear
+ls
+ga
+gs
+tail $(ls)
+clear
+

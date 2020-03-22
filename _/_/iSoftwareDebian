@@ -1,0 +1,7 @@
+sudo apt-get install $1
+sudo apt-get install $2
+sudo apt-get install $3
+sudo apt-get install $4
+sudo apt-get install $5
+sudo apt-get install $6
+

@@ -1,0 +1,82 @@
+echo "iSoftwareDebian $1" > i$1
+fgp
+echo "iSoftwareDebian $2" > i$2
+fgp
+echo "iSoftwareDebian $3" > i$3
+fgp
+echo "iSoftwareDebian $4" > i$4
+fgp
+echo "iSoftwareDebian $5" > i$5
+fgp
+echo "iSoftwareDebian $6" > i$6
+fgp
+
+echo "iSoftwareDebian $7" > i$7
+fgp
+echo "iSoftwareDebian $8" > i$8
+fgp
+echo "iSoftwareDebian $9" > i$9
+fgp
+echo "iSoftwareDebian $10" > i$10
+fgp
+echo "iSoftwareDebian $11" > i$11
+fgp
+echo "iSoftwareDebian $12" > i$12
+fgp
+
+echo "iSoftwareDebian $13" > i$13
+fgp
+echo "iSoftwareDebian $14" > i$14
+fgp
+echo "iSoftwareDebian $15" > i$15
+fgp
+echo "iSoftwareDebian $16" > i$16
+fgp
+echo "iSoftwareDebian $17" > i$17
+fgp
+echo "iSoftwareDebian $18" > i$18
+fgp
+
+echo "iSoftwareDebian $19" > i$19
+fgp
+echo "iSoftwareDebian $20" > i$20
+fgp
+echo "iSoftwareDebian $21" > i$21
+fgp
+echo "iSoftwareDebian $22" > i$22
+fgp
+echo "iSoftwareDebian $22" > i$22
+fgp
+echo "iSoftwareDebian $23" > i$23
+fgp
+
+echo "iSoftwareDebian $24" > i$24
+fgp
+echo "iSoftwareDebian $24" > i$24
+fgp
+echo "iSoftwareDebian $25" > i$25
+fgp
+echo "iSoftwareDebian $26" > i$26
+fgp
+echo "iSoftwareDebian $27" > i$27
+fgp
+echo "iSoftwareDebian $28" > i$28
+fgp
+
+echo "iSoftwareDebian $29" > i$29
+fgp
+echo "iSoftwareDebian $30" > i$30
+fgp
+echo "iSoftwareDebian $31" > i$31
+fgp
+echo "iSoftwareDebian $32" > i$32
+fgp
+echo "iSoftwareDebian $33" > i$33
+fgp
+echo "iSoftwareDebian $34" > i$34
+fgp
+
+chmod -R +x . && fgp && pmt && git push
+sudo cp -rf . /usr/local/bin/
+
+git push .

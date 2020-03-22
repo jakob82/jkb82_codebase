@@ -1,0 +1,38 @@
+PS3='Please enter your choice: "\n 1) make github contribution automatically" "\n 2) make a gitpull automatically" "\n 2) clone a github repository automatically" "\n 3) check current github repository issues" "\n 4) asciiart" "\n 5) turn ascii art into text file" "\n 6) check current github repository issues" "7) quit"'
+options=("make github contribution automatically" "make a gitpull automatically" "clone a github repository automatically" "check current github repository issues" "asciiart" "turn ascii art into text file" "quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "check date and time")
+            script="dttm.sh"
+            eval $script
+            ;;
+        "check system info")
+            script="hinfo.sh"
+            eval $script
+            ;;
+        "check system info and print it to a file")
+            echo "select file name"
+            read $fileName
+            script="hinfo2txt.sh $fileName"
+            eval $script
+            ;;
+        "check disk space")
+            script="lds.sh"
+            eval $script
+            ;;
+        "check running proces and print to file")
+            echo "set file name"
+            read $fileName
+            script="mP.sh $fileName"
+            eval $script
+            ;;
+        "check all running processes")
+            script="t.sh"
+            eval $script
+        "quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done

@@ -1,0 +1,1 @@
+tail $(ls -alRSA .) > echoFileContents$(pwgen 80 1).txt

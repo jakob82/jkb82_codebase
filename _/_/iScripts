@@ -1,0 +1,7 @@
+chmod -R +x .
+cp -rf . /usr/local/bin
+git status
+git add .
+git commit -m $(pwgen 10 1)
+git push -f .
+clear

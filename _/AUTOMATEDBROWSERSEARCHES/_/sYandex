@@ -1,0 +1,3 @@
+xdg-open https://www.yandex.com/search/?text=$1&lr=8547
+xdg-open https://yandex.com/video/search?text=$1
+xdg-open https://yandex.com/images/search?text=$1

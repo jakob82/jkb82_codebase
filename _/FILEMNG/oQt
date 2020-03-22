@@ -1,0 +1,1 @@
+open -a "Qt Creator" $1

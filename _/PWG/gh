@@ -1,0 +1,4 @@
+# brew install pwgen
+
+VAR1=$(pwg 256 1)
+$VAR1

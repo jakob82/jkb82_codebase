@@ -1,0 +1,1 @@
+ls -alRSA && git status && clear

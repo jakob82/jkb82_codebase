@@ -1,0 +1,22 @@
+clear
+
+printf "This is information provided by mysystem.sh \n"
+printf "Hello, $USER. \n\n"
+
+printf "TODAYS DATE IS `date`, this is week `date +%V`, 
+\n\n"
+
+printf "These users are currently connected: \n"
+w | cut -d " " -f 1 - | grep -v USER | sort -u
+
+printf "\n"
+
+printf "This is `uname -s` running on a `uname -m` 
+processors.\n\n"
+
+printf "This is the uptime information: \n"
+
+"uptime"
+
+printf "\n"
+printf "Thats all folks \n"

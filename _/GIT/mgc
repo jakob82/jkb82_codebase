@@ -1,0 +1,11 @@
+#!/bin/sh
+#brew install pwgen
+
+VAR1=$(pwgen 10 1) 
+VAR2=$(date+%Y-%m-%d-%H-%M-%S) 
+VAR3=$(pwgen2001) && VARF=("$VAR2-$VAR1-$VAR3") 
+
+gpm && ga && gs && ga && gs 
+git commit -m "$VARF" 
+ga && gs && gs && git checkout -b "$VARF" && git push origin "$VARF" 
+ga && gs && gs && clear && gi

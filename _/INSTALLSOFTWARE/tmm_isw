@@ -1,0 +1,7 @@
+lR.sh
+clear
+brew install $1
+brew upgrade $1
+brew upgrade
+lR.sh
+clear

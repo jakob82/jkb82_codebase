@@ -1,0 +1,33 @@
+PS3='Please enter your choice: "\n 1) make github contribution automatically" "\n 2) make a gitpull automatically" "\n 2) clone a github repository automatically" "\n 3) check current github repository issues" "\n 4) asciiart" "\n 5) turn ascii art into text file" "\n 6) check current github repository issues" "7) quit"'
+options=("make github contribution automatically" "make a gitpull automatically" "clone a github repository automatically" "check current github repository issues" "asciiart" "turn ascii art into text file" "quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "make github contribution automatically")
+            script="mgc.sh"
+            eval $script
+            ;;
+        "make a gitpull automatically")
+            script="gpm.sh"
+            eval $script
+            ;;
+        "clone a github repository automatically")
+            echo "add in a user URL"
+            read url
+            script="gc.sh $url"
+            eval $script
+            ;;
+        "check current github repository issues")
+            script="gi.sh"
+            eval $script
+            ;;
+        "check current github repository status")
+            script="gs.sh"
+            eval $script
+            ;;
+        "quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done

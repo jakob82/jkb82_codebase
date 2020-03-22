@@ -1,0 +1,1850 @@
+[H[2J/Users/a-/Desktop/trabalho/professionalWork/computerProgrammieringWerke/TMM_MaxForLive
+total 96
+-rw-r--r--   1 a-  staff    10B 27 Abr 14:51 .gitignore
+drwxr-xr-x   2 a-  staff    68B 27 Abr 14:53 _instrumentDevices
+-rw-r--r--   1 a-  staff    94B  8 Mai 12:42 contents.txt
+drwxr-xr-x   7 a-  staff   238B 29 Abr 12:12 _audioDevices
+-rw-r--r--   1 a-  staff   431B 28 Abr 15:01 ISSUE_TEMPLATE.md
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 _midiDevices
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:40 .git
+drwxr-xr-x  15 a-  staff   510B 28 Abr 15:05 .
+-rw-r--r--   1 a-  staff   643B 28 Abr 15:03 PULL_REQUEST_TEMPLATE.md
+drwxr-xr-x  21 a-  staff   714B  4 Mai 20:37 ..
+-rw-r--r--   1 a-  staff   835B 28 Abr 15:05 README.md
+-rw-r--r--   1 a-  staff   1,0K 27 Abr 14:39 LICENSE
+-rw-r--r--   1 a-  staff   3,1K 27 Abr 14:39 CODE_OF_CONDUCT.md
+-rw-r--r--@  1 a-  staff   6,0K  8 Mai 12:39 .DS_Store
+-rw-r--r--   1 a-  staff   9,1K 27 Abr 14:39 CONTRIBUTING.md
+
+./_instrumentDevices:
+total 0
+drwxr-xr-x   2 a-  staff    68B 27 Abr 14:53 .
+drwxr-xr-x  15 a-  staff   510B 28 Abr 15:05 ..
+
+./_audioDevices:
+total 16
+drwxr-xr-x   3 a-  staff   102B 28 Abr 12:39 audioProcessing
+drwxr-xr-x   3 a-  staff   102B 28 Abr 12:40 analogueStructureGenerators
+drwxr-xr-x   4 a-  staff   136B 29 Abr 12:58 audioAnalsyis
+drwxr-xr-x   6 a-  staff   204B 28 Abr 12:39 delayLines
+drwxr-xr-x   7 a-  staff   238B 29 Abr 12:12 .
+drwxr-xr-x  15 a-  staff   510B 28 Abr 15:05 ..
+-rw-r--r--@  1 a-  staff   6,0K 29 Abr 14:47 .DS_Store
+
+./_audioDevices/audioProcessing:
+total 40
+drwxr-xr-x  3 a-  staff   102B 28 Abr 12:39 .
+drwxr-xr-x  7 a-  staff   238B 29 Abr 12:12 ..
+-rw-r--r--@ 1 a-  staff    18K 27 Abr 12:23 simplemodulation.amxd
+
+./_audioDevices/analogueStructureGenerators:
+total 64
+drwxr-xr-x  3 a-  staff   102B 28 Abr 12:40 .
+drwxr-xr-x  7 a-  staff   238B 29 Abr 12:12 ..
+-rw-r--r--@ 1 a-  staff    30K 24 Abr 10:51 TMM_M4L_AnalogueCircuit1.amxd
+
+./_audioDevices/audioAnalsyis:
+total 344
+drwxr-xr-x  4 a-  staff   136B 29 Abr 12:58 .
+drwxr-xr-x  7 a-  staff   238B 29 Abr 12:12 ..
+-rw-r--r--@ 1 a-  staff    24K 29 Abr 12:08 peakAmpAnalysis.amxd
+-rw-r--r--@ 1 a-  staff   142K 29 Abr 12:54 peakAmpAnalysisInterpolated.amxd
+
+./_audioDevices/delayLines:
+total 80
+drwxr-xr-x  6 a-  staff   204B 28 Abr 12:39 .
+drwxr-xr-x  7 a-  staff   238B 29 Abr 12:12 ..
+-rw-r--r--@ 1 a-  staff   5,2K 27 Abr 12:08 nonDemonishDelayLine.amxd
+-rw-r--r--@ 1 a-  staff   5,5K 27 Abr 12:05 nonDemonishDelayLine2.amxd
+-rw-r--r--@ 1 a-  staff   5,5K 27 Abr 12:06 nonDemonishDelayLine1.amxd
+-rw-r--r--@ 1 a-  staff    15K 26 Abr 11:50 demonDelayForSampleoffset.amxd
+
+./_midiDevices:
+total 24
+drwxr-xr-x   3 a-  staff   102B 29 Abr 11:47 otherMidiProcessors
+drwxr-xr-x   3 a-  staff   102B  8 Mai 12:04 combo devices
+drwxr-xr-x   3 a-  staff   102B  8 Mai 12:39 ambientMuziek
+drwxr-xr-x   4 a-  staff   136B  8 Mai 12:05 melodies
+drwxr-xr-x   5 a-  staff   170B  8 Mai 12:39 javascriptMidi
+drwxr-xr-x   6 a-  staff   204B 29 Abr 12:11 interactiveMidi
+drwxr-xr-x   8 a-  staff   272B  8 Mai 12:02 chordsAndScales
+drwxr-xr-x   9 a-  staff   306B  8 Mai 12:39 algorithmicDanceMusicDevices
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 .
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:39 _midiJs&TXT
+drwxr-xr-x  15 a-  staff   510B 28 Abr 15:05 ..
+drwxr-xr-x  35 a-  staff   1,2K  8 Mai 12:06 junxion4Live
+-rw-r--r--@  1 a-  staff    10K  8 Mai 12:06 .DS_Store
+
+./_midiDevices/otherMidiProcessors:
+total 200
+drwxr-xr-x   3 a-  staff   102B 29 Abr 11:47 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff    98K 29 Abr 11:30 midiMangler 1.amxd
+
+./_midiDevices/combo devices:
+total 144
+drwxr-xr-x   3 a-  staff   102B  8 Mai 12:04 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff    70K  1 Mai 14:58 tmmM4Lcombo1.amxd
+
+./_midiDevices/ambientMuziek:
+total 32
+drwxr-xr-x   3 a-  staff   102B  8 Mai 12:39 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff    12K 26 Abr 21:51 ambientMusicGenerator.amxd
+
+./_midiDevices/melodies:
+total 96
+drwxr-xr-x   4 a-  staff   136B  8 Mai 12:05 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff    12K 28 Abr 12:51 generateRandomPianoMelodiesInMajorScale.amxd
+-rw-r--r--@  1 a-  staff    31K  4 Mai 10:56 midiFibonacciPrimeHybrid.amxd
+
+./_midiDevices/javascriptMidi:
+total 56
+drwxr-xr-x   5 a-  staff   170B  8 Mai 12:39 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff   6,0K  8 Mai 12:39 .DS_Store
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 12:05 testeJavascriptM4L.amxd
+-rw-r--r--@  1 a-  staff    10K 26 Abr 13:45 steadyMidiPulse.amxd
+
+./_midiDevices/interactiveMidi:
+total 120
+drwxr-xr-x   6 a-  staff   204B 29 Abr 12:11 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 16:35 noteInteractiveDecay.amxd
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 16:59 noteInteractiveRise.amxd
+-rw-r--r--@  1 a-  staff    20K 27 Abr 20:17 noteInputSlowMotionOutput.amxd
+-rw-r--r--@  1 a-  staff    20K 29 Abr 12:08 noteInputSlowMotionOutputWithPeakAmpAnalysis.amxd
+
+./_midiDevices/chordsAndScales:
+total 672
+drwxr-xr-x   8 a-  staff   272B  8 Mai 12:02 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff   6,0K  3 Mai 15:13 .DS_Store
+-rw-r--r--@  1 a-  staff    30K  3 Mai 15:06 midiFibonacciPrimeHybrid.amxd
+-rw-r--r--@  1 a-  staff    38K 28 Abr 15:12 chordifyMeJs.amxd
+-rw-r--r--@  1 a-  staff    63K 27 Abr 21:30 chrodifyMe.amxd
+-rw-r--r--@  1 a-  staff    85K  1 Mai 15:37 technoPIano.amxd
+-rw-r--r--@  1 a-  staff   103K 25 Abr 21:06 quabbahlistictwelvetonescalefilterWIP.amxd
+
+./_midiDevices/algorithmicDanceMusicDevices:
+total 1144
+drwxr-xr-x   9 a-  staff   306B  8 Mai 12:39 .
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff   6,0K  8 Mai 12:39 .DS_Store
+-rw-r--r--@  1 a-  staff    31K 30 Abr 11:10 midiProceduralBassGermanElectronica.amxd
+-rw-r--r--@  1 a-  staff    47K 28 Abr 11:01 technoMidiKickGenerator.amxd
+-rw-r--r--@  1 a-  staff    48K 28 Abr 11:02 technoMidiSnareGenerator.amxd
+-rw-r--r--@  1 a-  staff    48K 28 Abr 11:54 technoMidiHiHatGenerator.amxd
+-rw-r--r--@  1 a-  staff    85K  1 Mai 15:37 technoPIano.amxd
+-rw-r--r--@  1 a-  staff   295K 27 Abr 22:28 idmStepSequencerGenerator.amxd
+
+./_midiDevices/_midiJs&TXT:
+total 104
+-rw-r--r--@  1 a-  staff    36B  3 Mai 14:09 fibonacciPrimeHybrid.txt
+-rw-r--r--@  1 a-  staff    42B  4 Mai 10:56 majorScale.txt
+-rw-r--r--@  1 a-  staff    43B 28 Abr 12:50 Untitled.txt
+-rw-r--r--@  1 a-  staff    44B  3 Mai 14:12 majorScale
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+-rw-r--r--@  1 a-  staff   471B 28 Abr 10:58 midiSnare.txt
+-rw-r--r--@  1 a-  staff   471B 28 Abr 10:58 midiSnare - cópia.txt
+-rw-r--r--@  1 a-  staff   472B 28 Abr 10:05 midiKick.txt
+-rw-r--r--@  1 a-  staff   472B 28 Abr 10:05 midiKick - cópia.txt
+-rw-r--r--@  1 a-  staff   472B 28 Abr 11:54 midiHiHat.txt
+-rw-r--r--@  1 a-  staff   472B 28 Abr 11:54 midiHiHat - cópia.txt
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:39 .
+-rw-r--r--@  1 a-  staff   549B 24 Abr 12:03 teste.js
+-rw-r--r--@  1 a-  staff   1,9K  3 Mai 14:58 chrodifyMe.js
+-rw-r--r--@  1 a-  staff   1,9K  3 Mai 10:14 chordifyMe.js
+
+./_midiDevices/junxion4Live:
+total 2464
+drwxr-xr-x  13 a-  staff   442B  8 Mai 12:06 ..
+drwxr-xr-x  35 a-  staff   1,2K  8 Mai 12:06 .
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:21 midiNoteVelocityMinorThen.amxd
+-rw-r--r--@  1 a-  staff   3,7K 24 Abr 16:16 midiNoteVelocityBiggerThen.amxd
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:21 midiNoteVelocityEqualTo.amxd
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:23 midiNoteVelocityDifferentThen.amxd
+-rw-r--r--@  1 a-  staff   3,7K 24 Abr 16:18 midiNoteValueBiggerThen.amxd
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:19 midiNoteValueMinorThen.amxd
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:20 midiNoteValueEqualTo.amxd
+-rw-r--r--@  1 a-  staff   3,7K 25 Abr 19:22 midiNoteValueDifferentThen.amxd
+-rw-r--r--@  1 a-  staff   4,9K 24 Abr 16:23 midiNoteOutputBiggerThen.amxd
+-rw-r--r--@  1 a-  staff   4,9K 25 Abr 19:18 midiNoteOutputMinorThen.amxd
+-rw-r--r--@  1 a-  staff   4,9K 25 Abr 19:19 midiNoteOutputEqualTo.amxd
+-rw-r--r--@  1 a-  staff   4,9K 25 Abr 19:21 midiNoteOutputDifferentThen.amxd
+-rw-r--r--@  1 a-  staff   6,0K  8 Mai 12:03 .DS_Store
+-rw-r--r--@  1 a-  staff   6,5K 27 Abr 21:14 randomPulse60.amxd
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 16:35 noteInteractiveDecay.amxd
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 16:59 noteInteractiveRise.amxd
+-rw-r--r--@  1 a-  staff   7,8K 24 Abr 12:05 testeJavascriptM4L.amxd
+-rw-r--r--@  1 a-  staff    10K 26 Abr 13:45 steadyMidiPulse.amxd
+-rw-r--r--@  1 a-  staff    12K 26 Abr 21:51 Untitled Device.amxd
+-rw-r--r--   1 a-  staff    15K 25 Abr 19:40 midinotecountergenerator.amxd
+-rw-r--r--@  1 a-  staff    16K 29 Abr 10:48 toggleNoteOnOFF.amxd
+-rw-r--r--@  1 a-  staff    17K 26 Abr 13:51 midiCounterCtlout.amxd
+-rw-r--r--@  1 a-  staff    20K 29 Abr 12:09 noteInputSlowMotionOutput.amxd
+-rw-r--r--@  1 a-  staff    20K 29 Abr 12:08 noteInputSlowMotionOutputWithPeakAmpAnalysis.amxd
+-rw-r--r--@  1 a-  staff    31K 30 Abr 11:10 midiProceduralBassGermanElectronica.amxd
+-rw-r--r--@  1 a-  staff    32K  8 Mai 11:16 multisliderMadRandomGenerator.amxd
+-rw-r--r--@  1 a-  staff    47K  8 Mai 11:42 interpolatedTimeMidiNoteStructureGenerator.amxd
+-rw-r--r--@  1 a-  staff    60K 24 Abr 15:26 midiNoteInterpolator.amxd
+-rw-r--r--@  1 a-  staff    70K  1 Mai 14:58 tmmM4Lcombo1.amxd
+-rw-r--r--@  1 a-  staff    98K 29 Abr 11:30 midiMangler 1.amxd
+-rw-r--r--@  1 a-  staff   103K 25 Abr 21:06 quabbahlistictwelvetonescalefilterWIP.amxd
+-rw-r--r--@  1 a-  staff   272K  3 Mai 10:02 midiDeviceCombo.amxd
+-rw-r--r--@  1 a-  staff   272K  3 Mai 10:15 midiDevice.amxd
+
+./.git:
+total 88
+-rw-r--r--    1 a-  staff    23B  8 Mai 12:40 COMMIT_EDITMSG
+-rw-r--r--    1 a-  staff    39B  8 Mai 12:40 HEAD
+-rw-r--r--    1 a-  staff    41B  8 Mai 12:40 ORIG_HEAD
+-rw-r--r--    1 a-  staff    73B 24 Abr 14:34 description
+drwxr-xr-x    3 a-  staff   102B 24 Abr 14:34 info
+-rw-r--r--    1 a-  staff   114B 24 Abr 14:34 packed-refs
+drwxr-xr-x    4 a-  staff   136B 24 Abr 14:34 logs
+drwxr-xr-x    5 a-  staff   170B 24 Abr 14:34 refs
+-rw-r--r--    1 a-  staff   311B 24 Abr 14:34 config
+drwxr-xr-x   13 a-  staff   442B 24 Abr 14:34 hooks
+drwxr-xr-x   15 a-  staff   510B 28 Abr 15:05 ..
+drwxr-xr-x   15 a-  staff   510B  8 Mai 12:40 .
+-rw-r--r--    1 a-  staff   5,0K  8 Mai 12:40 FETCH_HEAD
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 objects
+-rw-r--r--    1 a-  staff    10K  8 Mai 12:40 index
+
+./.git/info:
+total 8
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 .
+-rw-r--r--   1 a-  staff   240B 24 Abr 14:34 exclude
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:40 ..
+
+./.git/logs:
+total 64
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 refs
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 .
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:40 ..
+-rw-r--r--   1 a-  staff    29K  8 Mai 12:40 HEAD
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 remotes
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 ..
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 .
+drwxr-xr-x  40 a-  staff   1,3K  8 Mai 12:40 heads
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 .
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 ..
+drwxr-xr-x  43 a-  staff   1,4K  8 Mai 12:40 origin
+
+./.git/logs/refs/remotes/origin:
+total 336
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 ..
+-rw-r--r--   1 a-  staff   140B  8 Mai 12:19 2018-05-08-eiQu0yiaxi-
+-rw-r--r--   1 a-  staff   140B  8 Mai 12:40 2018-05-08-Thahsi4Oyu-
+-rw-r--r--   1 a-  staff   140B  1 Mai 15:01 2018-05-01-xieY7utaiF-
+-rw-r--r--   1 a-  staff   140B  1 Mai 15:46 2018-05-01-faegohC9je-
+-rw-r--r--   1 a-  staff   140B 30 Abr 11:14 2018-04-30-Rei0Ieth2y-
+-rw-r--r--   1 a-  staff   140B 29 Abr 12:13 2018-04-29-uo8Eevazoo-
+-rw-r--r--   1 a-  staff   140B 29 Abr 12:58 2018-04-29-eeyiToh6oc-
+-rw-r--r--   1 a-  staff   140B 29 Abr 11:47 2018-04-29-Baicohn1da-
+-rw-r--r--   1 a-  staff   140B 29 Abr 11:10 2018-04-29-Aezab2Vao9-
+-rw-r--r--   1 a-  staff   140B 28 Abr 11:08 2018-04-28-zaeGh7uCho-
+-rw-r--r--   1 a-  staff   140B 28 Abr 10:16 2018-04-28-seCai8bieD-
+-rw-r--r--   1 a-  staff   140B 28 Abr 14:00 2018-04-28-ohmi7eiHea-
+-rw-r--r--   1 a-  staff   140B 28 Abr 15:01 2018-04-28-lixeicahH0-
+-rw-r--r--   1 a-  staff   140B 28 Abr 12:37 2018-04-28-leec5ohPhu-
+-rw-r--r--   1 a-  staff   140B 28 Abr 12:40 2018-04-28-jaiZ3phaht-
+-rw-r--r--   1 a-  staff   140B 28 Abr 12:08 2018-04-28-eet0no2Cig-
+-rw-r--r--   1 a-  staff   140B 28 Abr 12:07 2018-04-28-eb8CieKaih-
+-rw-r--r--   1 a-  staff   140B 28 Abr 15:03 2018-04-28-Teihoob1Mo-
+-rw-r--r--   1 a-  staff   140B 28 Abr 12:56 2018-04-28-Ooghoum1oh-
+-rw-r--r--   1 a-  staff   140B 28 Abr 15:18 2018-04-28-Oarohjei7k-
+-rw-r--r--   1 a-  staff   140B 28 Abr 15:15 2018-04-28-Aekee2oovu-
+-rw-r--r--   1 a-  staff   140B 27 Abr 13:12 2018-04-27-vies5Aenae-
+-rw-r--r--   1 a-  staff   140B 27 Abr 21:32 2018-04-27-uoB4phei8e-
+-rw-r--r--   1 a-  staff   140B 27 Abr 14:51 2018-04-27-paeSh3oxeb-
+-rw-r--r--   1 a-  staff   140B 27 Abr 21:16 2018-04-27-oYai7ieree-
+-rw-r--r--   1 a-  staff   140B 27 Abr 14:54 2018-04-27-eih4mooMei-
+-rw-r--r--   1 a-  staff   140B 27 Abr 22:31 2018-04-27-dingoaKec5-
+-rw-r--r--   1 a-  staff   140B 27 Abr 20:23 2018-04-27-ThaSoph3og-
+-rw-r--r--   1 a-  staff   140B 27 Abr 13:12 2018-04-27-Gooyo3Mo1a-
+-rw-r--r--   1 a-  staff   140B 27 Abr 20:21 2018-04-27-Fa4uShag6o-
+-rw-r--r--   1 a-  staff   140B 27 Abr 22:03 2018-04-27-EeTol8EeYa-
+-rw-r--r--   1 a-  staff   140B 27 Abr 14:52 2018-04-27-Aec9eovoSh-
+-rw-r--r--   1 a-  staff   140B 26 Abr 22:07 2018-04-26-ou7eitieRa-
+-rw-r--r--   1 a-  staff   140B 25 Abr 19:24 2018-04-25-aiHohfu2Ru-
+-rw-r--r--   1 a-  staff   140B 25 Abr 19:43 2018-04-25-aiGah9aich-
+-rw-r--r--   1 a-  staff   140B 24 Abr 17:47 2018-04-24--midiGeneratorsJunxion4live24-4-18
+-rw-r--r--   1 a-  staff   140B 24 Abr 14:35 2018-04-24--
+-rw-r--r--   1 a-  staff   144B 27 Abr 14:39 add-license-1
+-rw-r--r--   1 a-  staff   144B 27 Abr 14:39 add-code-of-conduct-1
+-rw-r--r--   1 a-  staff   179B 24 Abr 14:34 HEAD
+drwxr-xr-x  43 a-  staff   1,4K  8 Mai 12:40 .
+-rw-r--r--   1 a-  staff   4,1K  8 Mai 12:40 master
+
+./.git/logs/refs/heads:
+total 320
+drwxr-xr-x   4 a-  staff   136B 24 Abr 14:34 ..
+-rw-r--r--   1 a-  staff   151B  8 Mai 12:19 2018-05-08-eiQu0yiaxi-
+-rw-r--r--   1 a-  staff   151B  8 Mai 12:40 2018-05-08-Thahsi4Oyu-
+-rw-r--r--   1 a-  staff   151B  1 Mai 15:01 2018-05-01-xieY7utaiF-
+-rw-r--r--   1 a-  staff   151B  1 Mai 15:46 2018-05-01-faegohC9je-
+-rw-r--r--   1 a-  staff   151B 30 Abr 11:14 2018-04-30-Rei0Ieth2y-
+-rw-r--r--   1 a-  staff   151B 29 Abr 12:13 2018-04-29-uo8Eevazoo-
+-rw-r--r--   1 a-  staff   151B 29 Abr 12:58 2018-04-29-eeyiToh6oc-
+-rw-r--r--   1 a-  staff   151B 29 Abr 11:47 2018-04-29-Baicohn1da-
+-rw-r--r--   1 a-  staff   151B 29 Abr 11:10 2018-04-29-Aezab2Vao9-
+-rw-r--r--   1 a-  staff   151B 28 Abr 11:08 2018-04-28-zaeGh7uCho-
+-rw-r--r--   1 a-  staff   151B 28 Abr 10:16 2018-04-28-seCai8bieD-
+-rw-r--r--   1 a-  staff   151B 28 Abr 14:00 2018-04-28-ohmi7eiHea-
+-rw-r--r--   1 a-  staff   151B 28 Abr 15:01 2018-04-28-lixeicahH0-
+-rw-r--r--   1 a-  staff   151B 28 Abr 12:37 2018-04-28-leec5ohPhu-
+-rw-r--r--   1 a-  staff   151B 28 Abr 12:40 2018-04-28-jaiZ3phaht-
+-rw-r--r--   1 a-  staff   151B 28 Abr 12:08 2018-04-28-eet0no2Cig-
+-rw-r--r--   1 a-  staff   151B 28 Abr 12:07 2018-04-28-eb8CieKaih-
+-rw-r--r--   1 a-  staff   151B 28 Abr 15:03 2018-04-28-Teihoob1Mo-
+-rw-r--r--   1 a-  staff   151B 28 Abr 12:56 2018-04-28-Ooghoum1oh-
+-rw-r--r--   1 a-  staff   151B 28 Abr 15:18 2018-04-28-Oarohjei7k-
+-rw-r--r--   1 a-  staff   151B 28 Abr 15:15 2018-04-28-Aekee2oovu-
+-rw-r--r--   1 a-  staff   151B 27 Abr 13:12 2018-04-27-vies5Aenae-
+-rw-r--r--   1 a-  staff   151B 27 Abr 21:32 2018-04-27-uoB4phei8e-
+-rw-r--r--   1 a-  staff   151B 27 Abr 14:51 2018-04-27-paeSh3oxeb-
+-rw-r--r--   1 a-  staff   151B 27 Abr 21:16 2018-04-27-oYai7ieree-
+-rw-r--r--   1 a-  staff   151B 27 Abr 14:54 2018-04-27-eih4mooMei-
+-rw-r--r--   1 a-  staff   151B 27 Abr 22:31 2018-04-27-dingoaKec5-
+-rw-r--r--   1 a-  staff   151B 27 Abr 20:23 2018-04-27-ThaSoph3og-
+-rw-r--r--   1 a-  staff   151B 27 Abr 13:12 2018-04-27-Gooyo3Mo1a-
+-rw-r--r--   1 a-  staff   151B 27 Abr 20:21 2018-04-27-Fa4uShag6o-
+-rw-r--r--   1 a-  staff   151B 27 Abr 22:03 2018-04-27-EeTol8EeYa-
+-rw-r--r--   1 a-  staff   151B 27 Abr 14:52 2018-04-27-Aec9eovoSh-
+-rw-r--r--   1 a-  staff   151B 26 Abr 22:07 2018-04-26-ou7eitieRa-
+-rw-r--r--   1 a-  staff   151B 25 Abr 19:24 2018-04-25-aiHohfu2Ru-
+-rw-r--r--   1 a-  staff   151B 25 Abr 19:43 2018-04-25-aiGah9aich-
+-rw-r--r--   1 a-  staff   151B 24 Abr 17:47 2018-04-24--midiGeneratorsJunxion4live24-4-18
+-rw-r--r--   1 a-  staff   151B 24 Abr 14:35 2018-04-24--
+drwxr-xr-x  40 a-  staff   1,3K  8 Mai 12:40 .
+-rw-r--r--   1 a-  staff   9,8K  8 Mai 12:40 master
+
+./.git/refs:
+total 0
+drwxr-xr-x   2 a-  staff    68B 24 Abr 14:34 tags
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 remotes
+drwxr-xr-x   5 a-  staff   170B 24 Abr 14:34 .
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:40 ..
+drwxr-xr-x  40 a-  staff   1,3K  8 Mai 12:40 heads
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 a-  staff    68B 24 Abr 14:34 .
+drwxr-xr-x  5 a-  staff   170B 24 Abr 14:34 ..
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 .
+drwxr-xr-x   5 a-  staff   170B 24 Abr 14:34 ..
+drwxr-xr-x  43 a-  staff   1,4K  8 Mai 12:40 origin
+
+./.git/refs/remotes/origin:
+total 328
+-rw-r--r--   1 a-  staff    32B 24 Abr 14:34 HEAD
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:40 master
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:39 add-license-1
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:39 add-code-of-conduct-1
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:19 2018-05-08-eiQu0yiaxi-
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:40 2018-05-08-Thahsi4Oyu-
+-rw-r--r--   1 a-  staff    41B  1 Mai 15:01 2018-05-01-xieY7utaiF-
+-rw-r--r--   1 a-  staff    41B  1 Mai 15:46 2018-05-01-faegohC9je-
+-rw-r--r--   1 a-  staff    41B 30 Abr 11:14 2018-04-30-Rei0Ieth2y-
+-rw-r--r--   1 a-  staff    41B 29 Abr 12:13 2018-04-29-uo8Eevazoo-
+-rw-r--r--   1 a-  staff    41B 29 Abr 12:58 2018-04-29-eeyiToh6oc-
+-rw-r--r--   1 a-  staff    41B 29 Abr 11:47 2018-04-29-Baicohn1da-
+-rw-r--r--   1 a-  staff    41B 29 Abr 11:10 2018-04-29-Aezab2Vao9-
+-rw-r--r--   1 a-  staff    41B 28 Abr 11:08 2018-04-28-zaeGh7uCho-
+-rw-r--r--   1 a-  staff    41B 28 Abr 10:16 2018-04-28-seCai8bieD-
+-rw-r--r--   1 a-  staff    41B 28 Abr 14:00 2018-04-28-ohmi7eiHea-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:01 2018-04-28-lixeicahH0-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:37 2018-04-28-leec5ohPhu-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:40 2018-04-28-jaiZ3phaht-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:08 2018-04-28-eet0no2Cig-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:07 2018-04-28-eb8CieKaih-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:03 2018-04-28-Teihoob1Mo-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:56 2018-04-28-Ooghoum1oh-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:18 2018-04-28-Oarohjei7k-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:15 2018-04-28-Aekee2oovu-
+-rw-r--r--   1 a-  staff    41B 27 Abr 13:12 2018-04-27-vies5Aenae-
+-rw-r--r--   1 a-  staff    41B 27 Abr 21:32 2018-04-27-uoB4phei8e-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:51 2018-04-27-paeSh3oxeb-
+-rw-r--r--   1 a-  staff    41B 27 Abr 21:16 2018-04-27-oYai7ieree-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:54 2018-04-27-eih4mooMei-
+-rw-r--r--   1 a-  staff    41B 27 Abr 22:31 2018-04-27-dingoaKec5-
+-rw-r--r--   1 a-  staff    41B 27 Abr 20:23 2018-04-27-ThaSoph3og-
+-rw-r--r--   1 a-  staff    41B 27 Abr 13:12 2018-04-27-Gooyo3Mo1a-
+-rw-r--r--   1 a-  staff    41B 27 Abr 20:21 2018-04-27-Fa4uShag6o-
+-rw-r--r--   1 a-  staff    41B 27 Abr 22:03 2018-04-27-EeTol8EeYa-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:52 2018-04-27-Aec9eovoSh-
+-rw-r--r--   1 a-  staff    41B 26 Abr 22:07 2018-04-26-ou7eitieRa-
+-rw-r--r--   1 a-  staff    41B 25 Abr 19:24 2018-04-25-aiHohfu2Ru-
+-rw-r--r--   1 a-  staff    41B 25 Abr 19:43 2018-04-25-aiGah9aich-
+-rw-r--r--   1 a-  staff    41B 24 Abr 17:47 2018-04-24--midiGeneratorsJunxion4live24-4-18
+-rw-r--r--   1 a-  staff    41B 24 Abr 14:35 2018-04-24--
+drwxr-xr-x   3 a-  staff   102B 24 Abr 14:34 ..
+drwxr-xr-x  43 a-  staff   1,4K  8 Mai 12:40 .
+
+./.git/refs/heads:
+total 304
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:40 master
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:19 2018-05-08-eiQu0yiaxi-
+-rw-r--r--   1 a-  staff    41B  8 Mai 12:40 2018-05-08-Thahsi4Oyu-
+-rw-r--r--   1 a-  staff    41B  1 Mai 15:01 2018-05-01-xieY7utaiF-
+-rw-r--r--   1 a-  staff    41B  1 Mai 15:46 2018-05-01-faegohC9je-
+-rw-r--r--   1 a-  staff    41B 30 Abr 11:14 2018-04-30-Rei0Ieth2y-
+-rw-r--r--   1 a-  staff    41B 29 Abr 12:13 2018-04-29-uo8Eevazoo-
+-rw-r--r--   1 a-  staff    41B 29 Abr 12:58 2018-04-29-eeyiToh6oc-
+-rw-r--r--   1 a-  staff    41B 29 Abr 11:47 2018-04-29-Baicohn1da-
+-rw-r--r--   1 a-  staff    41B 29 Abr 11:10 2018-04-29-Aezab2Vao9-
+-rw-r--r--   1 a-  staff    41B 28 Abr 11:08 2018-04-28-zaeGh7uCho-
+-rw-r--r--   1 a-  staff    41B 28 Abr 10:16 2018-04-28-seCai8bieD-
+-rw-r--r--   1 a-  staff    41B 28 Abr 14:00 2018-04-28-ohmi7eiHea-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:01 2018-04-28-lixeicahH0-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:37 2018-04-28-leec5ohPhu-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:40 2018-04-28-jaiZ3phaht-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:08 2018-04-28-eet0no2Cig-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:07 2018-04-28-eb8CieKaih-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:03 2018-04-28-Teihoob1Mo-
+-rw-r--r--   1 a-  staff    41B 28 Abr 12:56 2018-04-28-Ooghoum1oh-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:18 2018-04-28-Oarohjei7k-
+-rw-r--r--   1 a-  staff    41B 28 Abr 15:15 2018-04-28-Aekee2oovu-
+-rw-r--r--   1 a-  staff    41B 27 Abr 13:12 2018-04-27-vies5Aenae-
+-rw-r--r--   1 a-  staff    41B 27 Abr 21:32 2018-04-27-uoB4phei8e-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:51 2018-04-27-paeSh3oxeb-
+-rw-r--r--   1 a-  staff    41B 27 Abr 21:16 2018-04-27-oYai7ieree-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:54 2018-04-27-eih4mooMei-
+-rw-r--r--   1 a-  staff    41B 27 Abr 22:31 2018-04-27-dingoaKec5-
+-rw-r--r--   1 a-  staff    41B 27 Abr 20:23 2018-04-27-ThaSoph3og-
+-rw-r--r--   1 a-  staff    41B 27 Abr 13:12 2018-04-27-Gooyo3Mo1a-
+-rw-r--r--   1 a-  staff    41B 27 Abr 20:21 2018-04-27-Fa4uShag6o-
+-rw-r--r--   1 a-  staff    41B 27 Abr 22:03 2018-04-27-EeTol8EeYa-
+-rw-r--r--   1 a-  staff    41B 27 Abr 14:52 2018-04-27-Aec9eovoSh-
+-rw-r--r--   1 a-  staff    41B 26 Abr 22:07 2018-04-26-ou7eitieRa-
+-rw-r--r--   1 a-  staff    41B 25 Abr 19:24 2018-04-25-aiHohfu2Ru-
+-rw-r--r--   1 a-  staff    41B 25 Abr 19:43 2018-04-25-aiGah9aich-
+-rw-r--r--   1 a-  staff    41B 24 Abr 17:47 2018-04-24--midiGeneratorsJunxion4live24-4-18
+-rw-r--r--   1 a-  staff    41B 24 Abr 14:35 2018-04-24--
+drwxr-xr-x   5 a-  staff   170B 24 Abr 14:34 ..
+drwxr-xr-x  40 a-  staff   1,3K  8 Mai 12:40 .
+
+./.git/hooks:
+total 96
+-rwxr-xr-x   1 a-  staff   189B 24 Abr 14:34 post-update.sample
+-rwxr-xr-x   1 a-  staff   424B 24 Abr 14:34 pre-applypatch.sample
+drwxr-xr-x  13 a-  staff   442B 24 Abr 14:34 .
+-rwxr-xr-x   1 a-  staff   478B 24 Abr 14:34 applypatch-msg.sample
+drwxr-xr-x  15 a-  staff   510B  8 Mai 12:40 ..
+-rwxr-xr-x   1 a-  staff   544B 24 Abr 14:34 pre-receive.sample
+-rwxr-xr-x   1 a-  staff   896B 24 Abr 14:34 commit-msg.sample
+-rwxr-xr-x   1 a-  staff   1,3K 24 Abr 14:34 pre-push.sample
+-rwxr-xr-x   1 a-  staff   1,5K 24 Abr 14:34 prepare-commit-msg.sample
+-rwxr-xr-x   1 a-  staff   1,6K 24 Abr 14:34 pre-commit.sample
+-rwxr-xr-x   1 a-  staff   3,2K 24 Abr 14:34 fsmonitor-watchman.sample
+-rwxr-xr-x   1 a-  staff   3,5K 24 Abr 14:34 update.sample
+-rwxr-xr-x   1 a-  staff   4,8K 24 Abr 14:34 pre-rebase.sample
+
+./.git/objects:
+total 0
+drwxr-xr-x    2 a-  staff    68B 24 Abr 14:34 pack
+drwxr-xr-x    2 a-  staff    68B 24 Abr 14:34 info
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 fc
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 fa
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:59 f8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:51 f3
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 f2
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 f0
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:03 ef
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 ec
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 eb
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 e9
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 e6
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 e5
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 e3
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 e0
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 dd
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 dc
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 db
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 d6
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 d2
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 ce
+drwxr-xr-x    3 a-  staff   102B 27 Abr 13:12 cd
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 cc
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 cb
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 c9
+drwxr-xr-x    3 a-  staff   102B 27 Abr 20:23 c8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 c6
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 c4
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 c2
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 c1
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 bd
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:03 b7
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 b4
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 b3
+drwxr-xr-x    3 a-  staff   102B 28 Abr 11:08 b2
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 b1
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 aa
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:10 a9
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:01 9e
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 99
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 98
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 97
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 96
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 95
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:46 91
+drwxr-xr-x    3 a-  staff   102B 28 Abr 15:18 8f
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 8d
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 85
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 82
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 7f
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 7e
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 6d
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 69
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 65
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 62
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 61
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:56 5b
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 59
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 4d
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 46
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 45
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:46 41
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 40
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 3d
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 3a
+drwxr-xr-x    3 a-  staff   102B 28 Abr 11:08 39
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 37
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:47 36
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 35
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 34
+drwxr-xr-x    3 a-  staff   102B 24 Abr 14:35 32
+drwxr-xr-x    3 a-  staff   102B 27 Abr 20:21 31
+drwxr-xr-x    3 a-  staff   102B 28 Abr 15:05 2f
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 2e
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:56 2d
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:40 2c
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 2a
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 29
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 28
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:58 22
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:59 1e
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:40 1d
+drwxr-xr-x    3 a-  staff   102B 24 Abr 14:34 16
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 10
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 0f
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 0e
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 0c
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 09
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 08
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:10 07
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 05
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:32 04
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 03
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:01 fe
+drwxr-xr-x    4 a-  staff   136B 27 Abr 14:39 f9
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 f7
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 f5
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 ea
+drwxr-xr-x    4 a-  staff   136B 28 Abr 10:16 e7
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 e4
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 e2
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:08 e1
+drwxr-xr-x    4 a-  staff   136B 27 Abr 14:39 de
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:01 cf
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 c0
+drwxr-xr-x    4 a-  staff   136B 27 Abr 21:32 bf
+drwxr-xr-x    4 a-  staff   136B 27 Abr 20:21 bc
+drwxr-xr-x    4 a-  staff   136B 28 Abr 11:08 ba
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:37 b5
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:01 af
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 a7
+drwxr-xr-x    4 a-  staff   136B 25 Abr 19:24 a6
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:46 a4
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 a1
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:03 a0
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 9d
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:18 9b
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:18 81
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 7b
+drwxr-xr-x    4 a-  staff   136B 30 Abr 11:14 7a
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:47 76
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:01 73
+drwxr-xr-x    4 a-  staff   136B 28 Abr 10:16 72
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:03 70
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 6f
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:47 6b
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 68
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:15 5f
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 5d
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:37 5c
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 5a
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 58
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 55
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:40 54
+drwxr-xr-x    4 a-  staff   136B 28 Abr 11:08 53
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 4e
+drwxr-xr-x    4 a-  staff   136B 30 Abr 11:14 4a
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 47
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 3b
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:40 38
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:03 2b
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 25
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 24
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:40 1c
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 1b
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:56 19
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 13
+drwxr-xr-x    4 a-  staff   136B 27 Abr 20:23 12
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 01
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 f1
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 ed
+drwxr-xr-x    5 a-  staff   170B 27 Abr 22:31 da
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 d9
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 d8
+drwxr-xr-x    5 a-  staff   170B 27 Abr 22:31 d3
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:13 c7
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:13 c5
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:40 c3
+drwxr-xr-x    5 a-  staff   170B  1 Mai 15:46 b9
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 ac
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:05 a8
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 9a
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:01 8a
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 89
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 84
+drwxr-xr-x    5 a-  staff   170B 27 Abr 13:12 75
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 71
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 66
+drwxr-xr-x    5 a-  staff   170B 28 Abr 14:00 63
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 50
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:40 4c
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 48
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 3f
+drwxr-xr-x    5 a-  staff   170B  1 Mai 15:46 23
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 21
+drwxr-xr-x    6 a-  staff   204B 28 Abr 12:08 fb
+drwxr-xr-x    6 a-  staff   204B 29 Abr 12:13 8c
+drwxr-xr-x    6 a-  staff   204B 29 Abr 12:13 6a
+drwxr-xr-x    7 a-  staff   238B 30 Abr 11:14 88
+drwxr-xr-x    8 a-  staff   272B  8 Mai 12:19 57
+drwxr-xr-x   15 a-  staff   510B  8 Mai 12:40 ..
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 .
+
+./.git/objects/pack:
+total 0
+drwxr-xr-x    2 a-  staff    68B 24 Abr 14:34 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/info:
+total 0
+drwxr-xr-x    2 a-  staff    68B 24 Abr 14:34 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/fc:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 .
+-r--r--r--    1 a-  staff   140B  8 Mai 12:19 d2bed699799ee92683c62bf0eb033298ef52db
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/fa:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   237B  8 Mai 12:19 9144013f9903860d46efa9e79ab3e26cda9163
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f8:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:59 .
+-r--r--r--    1 a-  staff   212B 27 Abr 14:59 6d6dd0d56b484cf11f0cc9225845ddcd29106a
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f3:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:51 .
+-r--r--r--    1 a-  staff   164B 27 Abr 14:51 648d20407d54b1a77103d4a4773a089a9fd2e8
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f2:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   620B 27 Abr 22:31 f1fe270b8cca6ca489a8fbd3db398c6199bc72
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f0:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 75624a870c878425aa72f067e9d20dee65b6a1
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ef:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:03 .
+-r--r--r--    1 a-  staff   164B 27 Abr 22:03 af8694f3bd2bdea696c8dd61a64ad44f3c7525
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ec:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 .
+-r--r--r--    1 a-  staff   640B 25 Abr 19:24 2ed87f2054c17b1c95ae22142e69b84e34295e
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/eb:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 .
+-r--r--r--    1 a-  staff   300B 28 Abr 10:16 e5e1c20078343e548aff44eda04b72df84ac72
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e9:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   434B 27 Abr 22:31 06bd31a4c4ba9763852a455aba81d3f5c039eb
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e6:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   4,0K  8 Mai 12:19 40261e5757ad2cc0aa79ae5497df10de42702c
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e5:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 .
+-r--r--r--    1 a-  staff   620B 27 Abr 14:54 e92c98fdcd9f2ce52fb42c80ad1ab2a78594e5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e3:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   514B  8 Mai 12:19 9c052e2aaccdb73f6b25783dea71657135fbed
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e0:
+total 8
+-r--r--r--    1 a-  staff    55B  8 Mai 12:19 877bd8d7817604b8609dd387d6a484ebfb0f5a
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/dd:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   623B 27 Abr 14:39 d799615537da31852cba7a525bcd25081f71d1
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/dc:
+total 8
+-r--r--r--    1 a-  staff    95B 28 Abr 12:37 64bf76bc567421929a1be0edbef3b6552e78d1
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/db:
+total 8
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 .
+-r--r--r--    1 a-  staff   1,0K 26 Abr 22:07 90b48d14510cacb426b7b2aa0c4f2e437091df
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/d6:
+total 8
+-r--r--r--    1 a-  staff    65B 28 Abr 12:40 53251d9b53655454691fe6b5fec4a765d7df59
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/d2:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 .
+-r--r--r--    1 a-  staff   300B 27 Abr 21:16 22873a6ac3ccf8eaed18589f72a20c16280e25
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ce:
+total 8
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 .
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 e4e5281cb7ae7d617a045e9bdc11287c938ac4
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/cd:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 13:12 .
+-r--r--r--    1 a-  staff   2,3K 28 Abr 12:40 fb1d2139a810e7033ba606892a3cde4fb90cb6
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/cc:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   555B 27 Abr 22:31 f119aadc3a301c1d8a62cbddca9b2d8eeb03ba
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/cb:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 .
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 63b825760ed35072e32227be33a7c2cd70c169
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c9:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 .
+-r--r--r--    1 a-  staff   780B 25 Abr 19:43 e46e63cc11e463428862be5094324618929cd8
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c8:
+total 16
+drwxr-xr-x    3 a-  staff   102B 27 Abr 20:23 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   7,2K 27 Abr 20:23 bc51622e55453e5d76bac7ec2fed761e562247
+
+./.git/objects/c6:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 .
+-r--r--r--    1 a-  staff   265B 27 Abr 14:54 69f00f49f22fa83711ff6adb8882302c603c67
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c4:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   147B 27 Abr 14:39 1fc4b4a6564201f04310168884d8fa55ff31d5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c2:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 .
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 75e2edfd526a9b0451367b1aed31ee640590dc
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c1:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 656b4664e51b90bc4e582cf8120208fed2faf5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/bd:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   560B 27 Abr 14:39 00b3e824c2e5097a083e526e4f2dc716fae2d3
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b7:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:03 .
+-r--r--r--    1 a-  staff   618B 27 Abr 22:03 3d27c39ea6d0c5727610211d2738851e3b8175
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b4:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 .
+-r--r--r--    1 a-  staff   619B 25 Abr 19:43 3ee38002a608b3b148f9f3b0067b73f509f18a
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b3:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:54 .
+-r--r--r--    1 a-  staff   860B 27 Abr 14:54 2e0503e8b6bf356530e29659e1f8e0b6fed25d
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b2:
+total 16
+drwxr-xr-x    3 a-  staff   102B 28 Abr 11:08 .
+-r--r--r--    1 a-  staff   5,1K 28 Abr 12:37 41d35fea193031b7c525bc3745b7ded4b17557
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b1:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 .
+-r--r--r--    1 a-  staff   168B 28 Abr 12:40 a5d28eac58e8959407bae15112d9b3e792b98e
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/aa:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 .
+-r--r--r--    1 a-  staff   619B 28 Abr 14:00 978e7899072d55b636f252c4ed14e07315928f
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/a9:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   163B 29 Abr 11:10 29a839e3a64db184b452a5149769b3724edeb7
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/9e:
+total 8
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:01 .
+-r--r--r--    1 a-  staff   376B  1 Mai 15:01 744c7fb06230b9ef26204ad1207480ccedd88c
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/99:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   637B 27 Abr 14:39 28ee3238a5143f63525e1345259b4422bcb9d0
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/98:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   3,8K  8 Mai 12:19 1ae09fced8cf277bce306ced4a08c541528ec5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/97:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 .
+-r--r--r--    1 a-  staff   162B 28 Abr 14:00 d8251c53d29d125c6916dcd6cee0d42242fd89
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/96:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:24 .
+-r--r--r--    1 a-  staff   1,3K 28 Abr 12:37 2d08e6a77decfdc897aa3c281387d7c301edaf
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/95:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   161B 28 Abr 12:37 cb1cb63877ebf708173da202422e2bcab41118
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/91:
+total 8
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:46 .
+-r--r--r--    1 a-  staff   375B  1 Mai 15:46 c5e2c2aacff6d9193021697baf68564d654b95
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/8f:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 15:18 .
+-r--r--r--    1 a-  staff   620B 28 Abr 15:18 491e24a6032b4182f927a4606b79affdf82ada
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/8d:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   578B 28 Abr 12:37 eb81832c3eee4784f9f060000ae95db2a71654
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/85:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:39 6f9059363ca4e94632d56462aa378d6efc26d1
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/82:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 .
+-r--r--r--    1 a-  staff   618B 28 Abr 12:40 3dcac978c8ad0469969d72860f6e1798c9d4f3
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/7f:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 10:16 .
+-r--r--r--    1 a-  staff   1,0K 28 Abr 10:16 9b235f02828131b3fde7e1eb4118c92292a834
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/7e:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   622B 29 Abr 12:13 1083d6692250ae85da62420a5d72c4f4f91a4a
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/6d:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   547B 27 Abr 22:31 43bc8c32caa613c59c1a9f728d336cd5022586
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/69:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   327B 29 Abr 12:13 5734e7d8578c0f3f13dd6823f01af660d01c7c
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/65:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   544B 27 Abr 22:31 15e8e943b3ccae4e5636fbff4538e29b608a39
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/62:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   135B  8 Mai 12:19 79200d11e89fcbbcc80b6141fcef5d7c27acd5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/61:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   1,2K 27 Abr 14:39 f7c1e54a9de56768426d03bf9b9a448304b9c1
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/5b:
+total 32
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:56 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    12K 28 Abr 12:56 c13a0cf1df9e644bfef27c09a69a1181cd4051
+
+./.git/objects/59:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 .
+-r--r--r--    1 a-  staff   162B 27 Abr 21:16 db8b59d088273eb3a4116f7645b590589fc5a0
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/4d:
+total 8
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 .
+-r--r--r--    1 a-  staff   161B 26 Abr 22:07 378c3923550cfbceaa7c846d0877a8ae6ebf57
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/46:
+total 32
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    15K 27 Abr 14:54 3ba73b58ee79204b17e03d094e641b31227d6f
+
+./.git/objects/45:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:16 .
+-r--r--r--    1 a-  staff   621B 27 Abr 21:16 76f3c37f368806a5e032218ac777feded4d905
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/41:
+total 24
+drwxr-xr-x    3 a-  staff   102B  1 Mai 15:46 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   8,3K  8 Mai 12:19 2d5cb1250ca071d23b8113d6f6f43d6ac6291c
+
+./.git/objects/40:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   556B 27 Abr 22:31 e42c9fe20db7dd2189ba52a016e3a7fa070f39
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/3d:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   560B 27 Abr 14:39 2ae6da4392b3b22a2f9bb525be17499fd55805
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/3a:
+total 8
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 .
+-r--r--r--    1 a-  staff   2,1K  8 Mai 12:19 fb870961ad20dd12ac880fbeeb2444d952e69f
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/39:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 11:08 .
+-r--r--r--    1 a-  staff   300B 28 Abr 11:08 e22f85f3d4ebd8673cae2554cc1702d92d6415
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/37:
+total 8
+drwxr-xr-x    3 a-  staff   102B 25 Abr 19:43 .
+-r--r--r--    1 a-  staff   2,5K 28 Abr 12:37 014b60c43a01febd1b827c95d4e4f452b90e42
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/36:
+total 24
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:47 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   9,7K  8 Mai 12:19 e6489e6d69b9091d38a906187dc28330d24df2
+
+./.git/objects/35:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   3,3K 29 Abr 12:13 88a0131e0b1a1ed2f614a25980231128ba821d
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/34:
+total 64
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    29K  8 Mai 12:19 38403dbfef29c1f1a8dbd2c1b53394c20eb754
+
+./.git/objects/32:
+total 8
+drwxr-xr-x    3 a-  staff   102B 24 Abr 14:35 .
+-r--r--r--    1 a-  staff   154B 24 Abr 14:35 781d01f1bceda40797710fa13e424801a734c8
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/31:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 20:21 .
+-r--r--r--    1 a-  staff   3,0K 28 Abr 12:37 90e1444ce71a399c3ab3926be718ead17fe81f
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2f:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 15:05 .
+-r--r--r--    1 a-  staff   622B 28 Abr 15:05 709fad7c5a6ccb8b6ff41865f4a7ec87aa9b96
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2e:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:40 .
+-r--r--r--    1 a-  staff   300B 28 Abr 12:40 ffc879ffe4e28ab3b3eb7152b8bd4f270022dd
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2d:
+total 8
+-r--r--r--    1 a-  staff    88B 28 Abr 12:56 77e4bdb969fb66cb23b2c5a131af437c6ae4df
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:56 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2c:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   266B  8 Mai 12:40 6a149f52f63b3aac5fa8ea2b48ee3aae743ca9
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2a:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   4,0K  8 Mai 12:19 df971e92027cdab3f6ee21d9e2bd18bf77c9cf
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/29:
+total 8
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 .
+-r--r--r--    1 a-  staff   1,9K 24 Abr 17:47 169119ed843ab310a1573363b86f337f884dd1
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/28:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   547B 27 Abr 22:31 c437e39b06356b4f0dcccbc23001b5ac8b2fb6
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/22:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 12:58 .
+-r--r--r--    1 a-  staff   167B 29 Abr 12:58 4913a8a509984dbcc14eb45692ed00fef57624
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/1e:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:59 .
+-r--r--r--    1 a-  staff   264B 27 Abr 14:59 4d6df454f683da019a32651974c48a8134cb60
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/1d:
+total 8
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   376B  8 Mai 12:40 9427ed4fdd53ed33c7496f0d5324adaf17f52f
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/16:
+total 8
+-r--r--r--    1 a-  staff    54B 24 Abr 14:34 a81900440a0c1c0644f1bb4d865d4fcdd275a0
+drwxr-xr-x    3 a-  staff   102B 24 Abr 14:34 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/10:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   621B 27 Abr 14:39 61275bc5f960f84ae68521b2c9fee298ad23ef
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/0f:
+total 8
+drwxr-xr-x    3 a-  staff   102B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   263B 28 Abr 12:37 1a5198d1c8b62f15a97ce303d8fc1742c06be9
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/0e:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   426B 27 Abr 22:31 3b6a7667bceaea86f83939ab0a4c5cebc55694
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/0c:
+total 16
+drwxr-xr-x    3 a-  staff   102B 28 Abr 14:00 .
+-r--r--r--    1 a-  staff   4,0K 28 Abr 14:00 4429715a1f2caa1c4c4adeaa80dabe08b0da17
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/09:
+total 8
+drwxr-xr-x    3 a-  staff   102B 26 Abr 22:07 .
+-r--r--r--    1 a-  staff   617B 26 Abr 22:07 31f88474d7ccca438cda1f4796f10e4781d7de
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/08:
+total 8
+-r--r--r--    1 a-  staff    62B  8 Mai 12:19 7ce44f76d6e4ac0202495ab1dd8737d780770c
+drwxr-xr-x    3 a-  staff   102B  8 Mai 12:19 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/07:
+total 8
+drwxr-xr-x    3 a-  staff   102B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   2,8K 29 Abr 11:10 b41eaacd85013cdf797c455735eed023581c40
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/05:
+total 8
+drwxr-xr-x    3 a-  staff   102B 24 Abr 17:47 .
+-r--r--r--    1 a-  staff   1,8K 24 Abr 17:47 bde6dbd254e290d6e0d38ba4e691e4d584190b
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/04:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 21:32 .
+-r--r--r--    1 a-  staff   1,0K 27 Abr 21:32 be7ca5f64e4432786be29ed4b770682a1dc7c2
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/03:
+total 8
+drwxr-xr-x    3 a-  staff   102B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   651B 27 Abr 14:39 3149442f9caee4ddd7372c3f97c3d5b250458b
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/fe:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:01 .
+-r--r--r--    1 a-  staff   163B 28 Abr 12:40 2e41a81e45781b15c2d9cae5f5dae20e386a05
+-r--r--r--    1 a-  staff   617B 28 Abr 15:01 c21cac7e54aa7567ef30e133dc5c8198352e87
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f9:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   557B 27 Abr 14:39 bb24a0bc967472c915ae0582ee2b7734c6ae5b
+-r--r--r--    1 a-  staff   1,5K 27 Abr 14:39 5d0aa61fc2d3dbf3de413893fa9c79729840f0
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f7:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   548B 27 Abr 22:31 361d12414144410371501caf23579dbcda355d
+-r--r--r--    1 a-  staff   621B  8 Mai 12:19 37f24ac2f6f374e002c32f321587850f8a0abe
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f5:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   182B 24 Abr 17:47 c0dd4da9d04f7ea2313e4d20237a9c981d68b1
+-r--r--r--    1 a-  staff   553B 27 Abr 22:31 3b4cdabb7dbc658686209a1578b2a319b52f08
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ea:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   166B 30 Abr 11:14 62e14c4d358bb65d7dda7f602c55a49cb97f54
+-r--r--r--    1 a-  staff   634B  8 Mai 12:19 4b5f7511c14e2b65b9a345c9c9791c06b96382
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e7:
+total 48
+drwxr-xr-x    4 a-  staff   136B 28 Abr 10:16 .
+-r--r--r--    1 a-  staff   618B 28 Abr 10:16 643df3c9918a69bcdc81ff9c8ee294445556ad
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    18K 28 Abr 12:37 bc109fd0d4494b3f9ea2515043d5ce10825a89
+
+./.git/objects/e4:
+total 16
+-r--r--r--    1 a-  staff    26B 27 Abr 14:51 3b0f988953ae3a84b00331d0ccf5f7d51cb3cf
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   557B 27 Abr 22:31 8e5c4ba3446b749e18cbe59c21920bdadb9268
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e2:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   558B 27 Abr 22:31 f4dfedd37d15ff145f267906cb263e62e3db12
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 56ca33500671b8afffae0d0f87753d4aceca9d
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/e1:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:08 .
+-r--r--r--    1 a-  staff   621B 28 Abr 12:08 e34f19131e4d853ea1c76a8f2d99ee355a7365
+-r--r--r--    1 a-  staff   1,1K 28 Abr 11:08 1d638367316733f2d33854cd1a1d93feace751
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/de:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 14:39 .
+-r--r--r--    1 a-  staff   1,2K 27 Abr 13:12 96422aa28fb7b25fb71d54c0f15d60004decac
+-r--r--r--    1 a-  staff   1,2K 27 Abr 14:39 f6a0d1138d9f87592095fc72e2243f640afdcc
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/cf:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:01 .
+-r--r--r--    1 a-  staff   166B 27 Abr 20:21 9552c330b16f218386fd4819c995e96ea8243e
+-r--r--r--    1 a-  staff   277B 28 Abr 15:01 a1e961d4900d00717f58e72a9bbbb1b0298d34
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c0:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   653B  1 Mai 15:01 4693ff71920050eee3845a9bf04b33484d4143
+-r--r--r--    1 a-  staff   2,9K  8 Mai 12:19 35cca6da130bcc180d0ab783cfbd90f15b90be
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/bf:
+total 24
+drwxr-xr-x    4 a-  staff   136B 27 Abr 21:32 .
+-r--r--r--    1 a-  staff   623B 27 Abr 21:32 bc183364eb2f66bc6bc9f6451a4420aadb6580
+-r--r--r--    1 a-  staff   5,9K 28 Abr 12:37 6615911b4bfad0d69772e060fa1acf0f7f0165
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/bc:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 20:21 .
+-r--r--r--    1 a-  staff   319B 24 Abr 17:47 578b252cd340647323a657fcf48c2c3fe77058
+-r--r--r--    1 a-  staff   1,7K 27 Abr 20:21 f01787b0da56f610b40fe51a1d5c1b7c6554c3
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ba:
+total 24
+drwxr-xr-x    4 a-  staff   136B 28 Abr 11:08 .
+-r--r--r--    1 a-  staff   547B 27 Abr 22:31 a5afc466309aff0a0b6a64c7a56270d484eb5b
+-r--r--r--    1 a-  staff   5,2K 28 Abr 12:37 437916078606a2558749eeb5b19b3e8c1b2fbf
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b5:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   299B 27 Abr 22:31 d3a208525a79647e7c007b2d3f9b444fe74fcb
+-r--r--r--    1 a-  staff   299B 28 Abr 12:37 cbe542db7979103538421ef5ed66736708ab35
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/af:
+total 32
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:01 .
+-r--r--r--    1 a-  staff   4,1K 27 Abr 14:39 d633ccf5d469549f0a1a68c0b84f487ab54cb3
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   7,3K  8 Mai 12:19 c8933cd913f6c4872451b60f89e1e1f87811ce
+
+./.git/objects/a7:
+total 24
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   181B 28 Abr 14:00 3db0b98bb29be4b9410c7d4c8406fdb36bae39
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   6,1K  8 Mai 12:19 b625698c0101aa4e9bcb8fa4c0c85d341d4f3e
+
+./.git/objects/a6:
+total 24
+drwxr-xr-x    4 a-  staff   136B 25 Abr 19:24 .
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 f827fd64fb571f7a7059d12ac97f922be5a2d0
+-r--r--r--    1 a-  staff   4,9K 27 Abr 14:54 9967044d53327447f413bdc56af426f7d79bee
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/a4:
+total 16
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:46 .
+-r--r--r--    1 a-  staff   164B  1 Mai 15:46 0e8af4912b374630406936d4f0a5f6913f51ca
+-r--r--r--    1 a-  staff   326B 30 Abr 11:14 2eaf0cab30923a97dd61980a5a34e327409dad
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/a1:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   375B 29 Abr 11:10 262a3ac2b79d6611dd918902853e5f0fedd73f
+-r--r--r--    1 a-  staff   2,6K 28 Abr 12:40 875d53602a7c0404e821fa678e2e554b90f371
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/a0:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:03 .
+-r--r--r--    1 a-  staff   406B 28 Abr 15:03 b64ebd7927b0936f348ead0bd567895884b917
+-r--r--r--    1 a-  staff   549B 27 Abr 22:31 5d8b507ea43d3168bd81bd4985c8b2e85f619a
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/9d:
+total 24
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 .
+-r--r--r--    1 a-  staff   549B 28 Abr 15:05 8db5608f9aa654fa4e1e6e3c5a721e1cccbc05
+-r--r--r--    1 a-  staff   4,9K 28 Abr 10:16 a0d6e889d3ca9eee1b0fda59283579312f7d2f
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/9b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:18 .
+-r--r--r--    1 a-  staff   161B 28 Abr 15:18 5008dcc60498ab38abda508b5342c73f058fed
+-r--r--r--    1 a-  staff   375B 28 Abr 15:18 08c0db64b3151413c8a671bd539c55f5077ff5
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/81:
+total 40
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:18 .
+-r--r--r--    1 a-  staff   2,4K 28 Abr 12:56 2d4b7eeee02bb69e021a6b7b32c3ff89731550
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    14K 28 Abr 15:18 7b464ac894ac57495cef3721ee368dca3465e2
+
+./.git/objects/7b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   614B 29 Abr 11:10 1b759d39e6f74f9c46fb2b2ffbf011b8d8584c
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 827efa444f1ce40918cc803cf917a5c1678360
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/7a:
+total 16
+drwxr-xr-x    4 a-  staff   136B 30 Abr 11:14 .
+-r--r--r--    1 a-  staff   376B 30 Abr 11:14 cd45a88cb618615eb64bdf2dd2b77792480818
+-r--r--r--    1 a-  staff   1,0K 27 Abr 22:31 8302068754f254040689843b2d9b48f5ea4de7
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/76:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:47 .
+-r--r--r--    1 a-  staff   300B 27 Abr 21:32 dd92d890f98460086fa1a807b3ea28b3c2a44f
+-r--r--r--    1 a-  staff   376B 29 Abr 11:47 e440fd13b051d4729abe978ebb28eef8ad234e
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/73:
+total 16
+drwxr-xr-x    4 a-  staff   136B  1 Mai 15:01 .
+-r--r--r--    1 a-  staff   326B  1 Mai 15:01 a773e944adf038417cfc74d7dbcd920bfeabeb
+-r--r--r--    1 a-  staff   547B 27 Abr 22:31 d404b565ab99810bc1183ba672bc4fafa38b94
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/72:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 10:16 .
+-r--r--r--    1 a-  staff   165B 28 Abr 10:16 a62509a05c8c8f8edf118b5aaca9d1d852521b
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 12ff5037c7ec8dc3b1a0ad2261e2dc0d6c6172
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/70:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:03 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:03 78b3c19ad2a20c961c0a7dbff23a17a23526b5
+-r--r--r--    1 a-  staff   1,3K 28 Abr 12:37 b551ecf9c4d49ca0c0b5c86b0c38ba014fe9df
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/6f:
+total 24
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   556B 27 Abr 22:31 6b64bda5a0949e7aea2a4355c31f18362a6044
+-r--r--r--    1 a-  staff   4,1K 27 Abr 14:39 242b8542c6ea3ee675699799ab6db51c9091ab
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/6b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:47 .
+-r--r--r--    1 a-  staff   326B 29 Abr 11:47 340043d25712ded58f2a96685337f153cff5c9
+-r--r--r--    1 a-  staff   520B 24 Abr 14:34 7b5babb055202de01f77c4b532cf4c97775b27
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/68:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 .
+-r--r--r--    1 a-  staff   555B 28 Abr 15:05 703a25c3a9105ee91c9528cac1983a10414b54
+-r--r--r--    1 a-  staff   1,7K  8 Mai 12:19 eb527f4ebe376fb40d7c316e9f47a3815b3be9
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/5f:
+total 24
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:15 .
+-r--r--r--    1 a-  staff   301B 28 Abr 12:56 e7d46e273a935d7a1420bda8d4c7dbecaeb0eb
+-r--r--r--    1 a-  staff   4,4K 28 Abr 15:15 8f067bca93078f58900e618915010785643c39
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/5d:
+total 56
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 .
+-r--r--r--    1 a-  staff   5,2K 28 Abr 12:37 fcf978d6916f9f16bdbb502309c3bca1187db7
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    18K 27 Abr 22:03 cca10f6d29d7423a85d0683ba0cdf519145e8f
+
+./.git/objects/5c:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   138B  8 Mai 12:19 9201967271258588a02ef9fbfa6e8384e42ee6
+-r--r--r--    1 a-  staff   143B 28 Abr 12:37 a809b66615ab7776ae8e3eb6e2c5885fc8f1ed
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/5a:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   180B 28 Abr 15:15 36d8255eef6fcd5fd914baad7ef25231b59202
+-r--r--r--    1 a-  staff   286B 29 Abr 11:10 6584823c4e8cfbfb81005acb4f60aae2cdbb18
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/58:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   165B 27 Abr 22:31 c931aecab38a62285a79af04fb818d17272350
+-r--r--r--    1 a-  staff   560B 27 Abr 14:39 2575fcd9f5883c28353665dadd04bfe80fc5ab
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/55:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:05 .
+-r--r--r--    1 a-  staff   301B 27 Abr 22:31 841bb14dd929ba5e17d5254ee4d01c14f55f16
+-r--r--r--    1 a-  staff   621B 28 Abr 15:05 f9441bf178ab0425fea3f7bb069d85e5d12495
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/54:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   166B  8 Mai 12:40 d9270e01be13bc4cb7196398e1b6a499e5900f
+-r--r--r--    1 a-  staff   1,3K 28 Abr 12:40 f3505d9a739bcd625cf3fbef1f3f77ba25b92e
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/53:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 11:08 .
+-r--r--r--    1 a-  staff   300B 27 Abr 20:23 653d372ca0383979141641b9e9b80db9bb7eb2
+-r--r--r--    1 a-  staff   623B 28 Abr 11:08 6c49d1a35b03df7dc8304242fbd57895bdcd8b
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/4e:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 .
+-r--r--r--    1 a-  staff   162B 27 Abr 14:54 51240632ce79a69504e18c632906d375d36a1c
+-r--r--r--    1 a-  staff   1,1K 28 Abr 12:07 7af539383645c3618d6bb75e8cdca8de76ed57
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/4a:
+total 16
+drwxr-xr-x    4 a-  staff   136B 30 Abr 11:14 .
+-r--r--r--    1 a-  staff   319B 30 Abr 11:14 c6ec39791c74f8fa05cd6ba2dbb520b26a7e82
+-r--r--r--    1 a-  staff   617B 29 Abr 12:13 1f7c65f4e924105ecc45e13659d977a0d0bbdb
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/47:
+total 16
+drwxr-xr-x    4 a-  staff   136B 29 Abr 11:10 .
+-r--r--r--    1 a-  staff   178B 24 Abr 14:35 876da9f5678b92140bf00efd7dd25b324ef73d
+-r--r--r--    1 a-  staff   622B 29 Abr 11:10 8beeee236b99403038e17d60a880f992987579
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/3b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:07 .
+-r--r--r--    1 a-  staff   300B 28 Abr 12:07 5a32edec1d3704c6480213bbb3bb81640c5f09
+-r--r--r--    1 a-  staff   1,0K 27 Abr 22:03 ff990ae992cbb6f88fe34efd5d288c798db199
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/38:
+total 16
+-r--r--r--    1 a-  staff    74B 28 Abr 12:40 1cefb4eaeb9e8deefc91d9466f66c8f6764c7c
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:40 .
+-r--r--r--    1 a-  staff   168B 28 Abr 11:08 85e11171afca1c00ce8d8c34c8af36950c6228
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/2b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 15:03 .
+-r--r--r--    1 a-  staff   376B 28 Abr 15:03 02df0eec4ab9f0f66ad861d1273c9717a38be0
+-r--r--r--    1 a-  staff   415B 27 Abr 13:12 96484634e0bb31369a05bf6b704cfca93f95d3
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/25:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   514B  8 Mai 12:19 de32f121a5fc064eb1f45f9c8d664b8c2c7fe2
+-r--r--r--    1 a-  staff   1,2K  8 Mai 12:19 5a80ea1fa8b98e1437b3e63a203ea80b495f19
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/24:
+total 16
+-r--r--r--    1 a-  staff    56B  8 Mai 12:19 0878520d33e42c122dc4ff47d535240e14a2f3
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   376B  8 Mai 12:19 5ab469f85899cde1ba8cab78a4680d5902041d
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/1c:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   313B 27 Abr 14:54 9de56f32de5625abc6510042ed8c0d2beb8a75
+-r--r--r--    1 a-  staff   621B  8 Mai 12:40 741da26cd79dbbe4eec4eaff76c203476cde00
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/1b:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   301B 27 Abr 22:31 b49162c83fdfdfe6a0e46743f356958ccbfa82
+-r--r--r--    1 a-  staff   1,8K 28 Abr 12:37 7fbf5c9298283ad8c93d84434d5a7691b57eea
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/19:
+total 16
+drwxr-xr-x    4 a-  staff   136B 28 Abr 12:56 .
+-r--r--r--    1 a-  staff   162B 28 Abr 12:56 37aa27ae25fd33ef2b89956bb8626e60ce42bd
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:39 eeb0174e0983d775bf476c090ae4a3e157fb80
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/13:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   163B  8 Mai 12:19 f623fe0543b25f6f08c0897fd618c7564c602b
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 2f4de059dfbf9f6e52b4f16414e7dfdf5f2045
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/12:
+total 16
+drwxr-xr-x    4 a-  staff   136B 27 Abr 20:23 .
+-r--r--r--    1 a-  staff   164B 27 Abr 20:23 ff793ddbaa1edb2287f6d3c122ead0482b1c7e
+-r--r--r--    1 a-  staff   554B 27 Abr 14:39 694c1f9f8b63170c32b23b6d77521877635fb0
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/01:
+total 16
+drwxr-xr-x    4 a-  staff   136B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   164B  1 Mai 15:01 156ad28ef533156e57377ec1069f29e8c4349d
+-r--r--r--    1 a-  staff   373B  8 Mai 12:19 f602f7028c176b313e3342afa3dc8f50a7b5d8
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/f1:
+total 24
+-r--r--r--    1 a-  staff    32B 24 Abr 14:34 1a547317fbd8465afcc90da1cae0fe63b9f39f
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   623B 28 Abr 12:37 4e08cde6367d8ee7fb4ac3279374e067024f3d
+-r--r--r--    1 a-  staff   739B 25 Abr 19:24 a73ac5c756a4ead4b0728c7cbce480cc0bc2f8
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ed:
+total 24
+-r--r--r--    1 a-  staff   103B 29 Abr 12:58 5ed6ad4f596cdb876e92db2bdca24a52b885f4
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 .
+-r--r--r--    1 a-  staff   175B 29 Abr 12:58 31c4c04a11ac4dc65620c5bacf99911252083b
+-r--r--r--    1 a-  staff   258B  8 Mai 12:19 0966f1aa9d420963f0e6c50731323da002058c
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/da:
+total 48
+drwxr-xr-x    5 a-  staff   170B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 0c357aacd55fa38e6fc5e21140d6a141601559
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff   6,1K 28 Abr 12:37 daf638acaa07ab3a8a567856198c5efb13c3a3
+-r--r--r--    1 a-  staff   8,9K  8 Mai 12:19 82f83f1b0476073109b2caa206f13a3a6181d5
+
+./.git/objects/d9:
+total 32
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   298B 28 Abr 12:37 c3922b33c17f067179461151630f4c160f5246
+-r--r--r--    1 a-  staff   971B 27 Abr 20:21 753415be4f3ffdfaafb6c2b13566f508567af6
+-r--r--r--    1 a-  staff   5,0K 27 Abr 14:54 745c48b3372f910d31f9a921539d00338f98a0
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/d8:
+total 24
+-r--r--r--    1 a-  staff   161B 28 Abr 12:08 016e02990f6c467166767406f83c3b426d98ab
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 .
+-r--r--r--    1 a-  staff   616B 29 Abr 12:58 da320e612b8469f385788a575e4127268879b6
+-r--r--r--    1 a-  staff   1,6K  8 Mai 12:19 697ba77e231b5ce48b0bec52a7c6641939b050
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/d3:
+total 24
+drwxr-xr-x    5 a-  staff   170B 27 Abr 22:31 .
+-r--r--r--    1 a-  staff   556B 27 Abr 22:31 97dc5981e5127ef5d28b84d91e26aeef4ac7c2
+-r--r--r--    1 a-  staff   563B 27 Abr 14:39 f0ccf68c9ae85ef78d67f3c131b55ac3948773
+-r--r--r--    1 a-  staff   2,1K  8 Mai 12:19 5523e3934caa08281d2f2ef0a75bd3b7be85ab
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c7:
+total 24
+-r--r--r--    1 a-  staff   122B 28 Abr 12:37 6ef0b5dd173ecd4f9cefafcc55ecdd267ddcbb
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   375B 29 Abr 12:13 d12e65d47e7753795deab8fcb26483be9f8a62
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:39 43fecc8ca25cf9322a9706c7163d8fdba54e7a
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c5:
+total 24
+-r--r--r--    1 a-  staff    64B 29 Abr 12:13 7bdd817e160933f24bab04999584a27c14d38f
+-r--r--r--    1 a-  staff   163B 25 Abr 19:43 2e023a24e7fae516273fc2720a86353dfbdb29
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   547B 27 Abr 22:31 d171734dacc1fe6fa226d19bcc2c50c3eed7bd
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/c3:
+total 24
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   375B 29 Abr 12:58 aeed51b4c722fe519fa93a3f7dc997a1c85e67
+-r--r--r--    1 a-  staff   391B  8 Mai 12:40 996b6eaeb993277fa9a794a4d010b186c33352
+-r--r--r--    1 a-  staff   564B 27 Abr 14:39 42ec717a5aedb93cecc599a6de4ba297bb54bf
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/b9:
+total 24
+-r--r--r--    1 a-  staff   164B 28 Abr 15:03 db85db4ba89a23ccfef49cba45acaf838217ee
+drwxr-xr-x    5 a-  staff   170B  1 Mai 15:46 .
+-r--r--r--    1 a-  staff   216B  1 Mai 15:46 fae52f277be09363b01563d1ceb3f4ad44e033
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 ddc4f9e39883e6a7f596fbf49a75279911a028
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/ac:
+total 80
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   618B 27 Abr 14:59 7d57410775caf165cd8a382b1cc7f171d4fc5a
+-r--r--r--    1 a-  staff   637B 27 Abr 13:12 e6c212d01186ca222d28c5d83921b52f58f4fb
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    30K  8 Mai 12:19 990790a46bba333471ee7ac2de68f4896d2a09
+
+./.git/objects/a8:
+total 24
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:05 .
+-r--r--r--    1 a-  staff   376B 28 Abr 15:05 0997f8d53cb6c2b86f5544a70b6159a82e1bc8
+-r--r--r--    1 a-  staff   612B 24 Abr 17:47 0883cd016cedeb5dd9f018d4384939afc72af6
+-r--r--r--    1 a-  staff   2,6K 28 Abr 12:37 e7f173453190cda68a9e2ec50c7b1225ed6700
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/9a:
+total 24
+-r--r--r--    1 a-  staff    56B  8 Mai 12:19 f069342b91eae7028cd50ab04ccaa5b4208d24
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   264B 27 Abr 20:21 1623af55532ae37e74446e722b9d5dca47de8f
+-r--r--r--    1 a-  staff   287B 28 Abr 12:56 7ece2da5562bc13f624651d5d3bf19aaaf2212
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/8a:
+total 24
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:01 .
+-r--r--r--    1 a-  staff   339B 28 Abr 15:01 a71c54998ae55816d20ce9f63bf48833217f86
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 a7be413d2594f8db6596e3cc1507599fcacd1a
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:52 70ae1d569e7b5cc721e6bc75d08173b25bf3ed
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/89:
+total 24
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   303B  8 Mai 12:19 b5a9df90b5c5bad0599f14df82bf7c7f98164e
+-r--r--r--    1 a-  staff   620B 28 Abr 12:56 da9337fdd849fb1b5dce271645c180ceba77df
+-r--r--r--    1 a-  staff   621B 27 Abr 14:52 65ac637ba56c0837b473300dab4f63fed2cd01
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/84:
+total 24
+-r--r--r--    1 a-  staff    51B  8 Mai 12:19 7715c7f3b06addae9db349a81f7b80770161d4
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 c778e19567d0dda2c4c8e6e93e6e060b20e67a
+-r--r--r--    1 a-  staff   3,0K  8 Mai 12:19 97d6d8bbf285d5595a10e0b9163f074854ffc7
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/75:
+total 24
+-r--r--r--    1 a-  staff   164B 25 Abr 19:24 0b1217fac46b8242b44e8bfe1fd949e442a046
+drwxr-xr-x    5 a-  staff   170B 27 Abr 13:12 .
+-r--r--r--    1 a-  staff   212B 27 Abr 14:54 4769475361b5fc8178a6c95de87da076fbc344
+-r--r--r--    1 a-  staff   2,0K  8 Mai 12:19 46fcc199e75c7fd5ae46064ff04f4e5ec81108
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/71:
+total 48
+-r--r--r--    1 a-  staff   162B 28 Abr 12:07 204b8a94e24068b47cc5c7c1e748d2b1470bc1
+drwxr-xr-x    5 a-  staff   170B 29 Abr 12:58 .
+-r--r--r--    1 a-  staff   556B 27 Abr 22:31 10f82ba502a85cb3329a4792a00c783aa54052
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    13K 29 Abr 12:58 5eee738206c9a52ee4f14996717f90bfe3de56
+
+./.git/objects/66:
+total 24
+drwxr-xr-x    5 a-  staff   170B 28 Abr 12:37 .
+-r--r--r--    1 a-  staff   255B 28 Abr 12:37 0d2e899d85df5f3f87e081500789e41d9023e6
+-r--r--r--    1 a-  staff   555B 27 Abr 22:31 856762ee2e74a1acdfc645c7f0970cd53fd50d
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 dda8a8085b0d9b4d40a32d3f1e06cef003e173
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/63:
+total 24
+-r--r--r--    1 a-  staff   166B 27 Abr 13:12 1d095a1a11090caaf453e704023ff38e40020b
+drwxr-xr-x    5 a-  staff   170B 28 Abr 14:00 .
+-r--r--r--    1 a-  staff   286B 28 Abr 14:00 3b56535067f32b23ed06f20ba2271ba6d8d549
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:39 8ecae95964d3ad69598640ab589f5edb5df2ff
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/50:
+total 24
+-r--r--r--    1 a-  staff    71B 28 Abr 12:37 ba877277f433939690c8c8e9c092aa119e2789
+-r--r--r--    1 a-  staff   139B  8 Mai 12:19 a68bccb72e612194b59ecf412aac4c391387b5
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   255B 25 Abr 19:24 08ddfcf53c02e82d7eee2e57c38e5672ef89f6
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/4c:
+total 24
+-r--r--r--    1 a-  staff   107B  8 Mai 12:40 37f03e48cb0e8d36b0b7defcf24c510a3c7580
+-r--r--r--    1 a-  staff   143B 28 Abr 12:40 88fc93206ef2e390437a984f2ac66ab6289a20
+drwxr-xr-x    5 a-  staff   170B  8 Mai 12:40 .
+-r--r--r--    1 a-  staff   300B 27 Abr 22:31 90998729ed1cbdc1255209f1e5d52a951cc134
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/48:
+total 24
+-r--r--r--    1 a-  staff   159B 28 Abr 15:15 401648f2877ec8e60a8f6536589cc5d627f79d
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 .
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:39 2fcf1c797f61292bfe28777bcc1a6dbedfab37
+-r--r--r--    1 a-  staff   1,8K  8 Mai 12:19 1af6f5317e92f28b448e8a31e24c6bb4ad2c93
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/3f:
+total 24
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 .
+-r--r--r--    1 a-  staff   376B 28 Abr 15:15 85136a50e11c9360de4060169169aa12366f1c
+-r--r--r--    1 a-  staff   556B 27 Abr 14:59 b45821af2a1fe17e418b71d33fcd73f6626317
+-r--r--r--    1 a-  staff   1,4K 28 Abr 12:40 93f944ca64a8cf11b830c3d85feee8ee56c4f4
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/23:
+total 32
+drwxr-xr-x    5 a-  staff   170B  1 Mai 15:46 .
+-r--r--r--    1 a-  staff   328B  1 Mai 15:46 c4a8099e742e03522a5ffb3111025f6773c6f9
+-r--r--r--    1 a-  staff   1,4K 28 Abr 12:40 462ebb3f6e5e561f98b5125c7ed8ba1ee84867
+-r--r--r--    1 a-  staff   4,1K 27 Abr 14:39 62e1a331465306b70944315ce70cd67bb4597e
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/21:
+total 32
+drwxr-xr-x    5 a-  staff   170B 28 Abr 15:15 .
+-r--r--r--    1 a-  staff   286B 28 Abr 15:15 84b9ee5ad0192b67766f906a1255e4baf30641
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:51 ae09013d5e75e9a9228232daae9ccfd9cec48d
+-r--r--r--    1 a-  staff   4,1K 27 Abr 14:39 7a26a5772e199ce8260cf2e839f254185f6d2d
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/fb:
+total 32
+drwxr-xr-x    6 a-  staff   204B 28 Abr 12:08 .
+-r--r--r--    1 a-  staff   300B 28 Abr 12:08 3b935c6878de8e4d7dd786866814fac5c1a5e6
+-r--r--r--    1 a-  staff   555B 27 Abr 22:31 5444c57bf30f5d005a61cc0bb30ebead776068
+-r--r--r--    1 a-  staff   619B 28 Abr 12:07 d1dd1fd2c5c2b5910eb9c8c3282ed3479b82ab
+-r--r--r--    1 a-  staff   1,3K 27 Abr 14:54 86aa9856e16f6b8325fa2ab27b92dd74ac9c27
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/8c:
+total 32
+-r--r--r--    1 a-  staff   136B  8 Mai 12:19 b32583f077fe12e25d612dcbcd11c403d45c51
+-r--r--r--    1 a-  staff   187B 29 Abr 12:13 79b3f160f52bd9aa7e11beed60b39095e0582a
+drwxr-xr-x    6 a-  staff   204B 29 Abr 12:13 .
+-r--r--r--    1 a-  staff   597B 24 Abr 17:47 1a08473b1e17a15934d76977c496af8ffe36d3
+-r--r--r--    1 a-  staff   971B 27 Abr 21:16 41b59de734280d451b563a79265d639fc4a5e2
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/6a:
+total 48
+-r--r--r--    1 a-  staff    63B 29 Abr 11:47 859c72d3da82376b8de65002ce6f2770744f08
+-r--r--r--    1 a-  staff   161B 29 Abr 11:47 e33fd9784d6f285c9947b1e35daf6418d18577
+-r--r--r--    1 a-  staff   175B 29 Abr 12:13 5181f4ea6921462623241927e84fd34254c5d3
+drwxr-xr-x    6 a-  staff   204B 29 Abr 12:13 .
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+-r--r--r--    1 a-  staff    11K 28 Abr 12:08 eb47e090dc3ca02b7d7b2d3c6330e3e300247b
+
+./.git/objects/88:
+total 56
+-r--r--r--    1 a-  staff   165B 28 Abr 15:01 d774a348e0770f03b060de42779e218cf50457
+drwxr-xr-x    7 a-  staff   238B 30 Abr 11:14 .
+-r--r--r--    1 a-  staff   622B 27 Abr 21:16 acaecd553c798259576d950ce6e05fb193bffa
+-r--r--r--    1 a-  staff   1,2K 28 Abr 12:37 aa426cfd2a6792f260d1a5ad59b68c2c7db3d5
+-r--r--r--    1 a-  staff   4,0K  8 Mai 12:19 f5f56d4439c56f1d63852399714fcfa04edd50
+-r--r--r--    1 a-  staff   4,3K 28 Abr 12:40 dbe519fd96211c722cca8889c4f1dede764a64
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..
+
+./.git/objects/57:
+total 48
+-r--r--r--    1 a-  staff   163B 29 Abr 12:13 ce1b5f3a590657fd411b4d36e93863f31be86e
+-r--r--r--    1 a-  staff   163B 27 Abr 14:52 37e2ac8e29235aa34ae6c9ae24088a6a40cc6e
+-r--r--r--    1 a-  staff   164B 27 Abr 21:32 64e15db68540255459b6639a76bae466acf539
+drwxr-xr-x    8 a-  staff   272B  8 Mai 12:19 .
+-r--r--r--    1 a-  staff   300B 28 Abr 14:00 ba9e92f098e6fc862648e2007b6d56d67cd85b
+-r--r--r--    1 a-  staff   392B  8 Mai 12:19 6ce030d3535621c4550da072e23be1fadad535
+-r--r--r--    1 a-  staff   1,3K 28 Abr 12:37 ac3d3dcdf4800ee8abaee578c7006b6190a308
+drwxr-xr-x  183 a-  staff   6,1K  8 Mai 12:40 ..

@@ -1,0 +1,16 @@
+criar 3 butoes num interface para:
+	-	seleccionar conta de paypal
+	-	seleccionar wallet para ciptotrading
+	-	comecar analise de quotacoes e transaccoes aumaticas
+
+iterar interfacce grafica
+consider uso de outros frameworks (electron, react-native, etc.)
+
+criar regras de transaccao
+
+NOTA:
+usar documentacao nativa de paypal (API)
+usar documentacao nativa de criptowallet
+
+criar regras a partir de histogramas e sistemas de integradores
+

@@ -1,0 +1,23 @@
+deb http://deb.debian.org/debian buster main
+deb-src http://deb.debian.org/debian buster main
+
+deb http://deb.debian.org/debian-security/ buster/updates main
+deb-src http://deb.debian.org/debian-security/ buster/updates main
+
+deb http://deb.debian.org/debian buster-updates main
+deb-src http://deb.debian.org/debian buster-updates main
+
+deb tor+http://vwakviie2ienjx6t.onion/debian stretch main
+deb-src tor+http://vwakviie2ienjx6t.onion/debian stretch main
+
+deb tor+http://sgvtcaew4bxjd7ln.onion/debian-security stretch/updates main
+deb-src tor+http://sgvtcaew4bxjd7ln.onion/debian-security stretch/updates main
+
+deb tor+http://vwakviie2ienjx6t.onion/debian stretch-updates main
+deb-src tor+http://vwakviie2ienjx6t.onion/debian stretch-updates main
+
+deb http://deb.debian.org/debian buster-backports main contrib non-free
+deb-src http://deb.debian.org/debian buster-backports main contrib non-free
+
+deb http://deb.debian.org/debian buster main contrib non-free
+deb-src http://deb.debian.org/debian buster main contrib non-free

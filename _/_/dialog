@@ -1,0 +1,5 @@
+echo -n "escreva um nome de uma pessoa, de preferencia 
+um pouco animalesca:"
+read ANIMAL
+echo -n "o $ANIMAL tem 4 membros."
+
