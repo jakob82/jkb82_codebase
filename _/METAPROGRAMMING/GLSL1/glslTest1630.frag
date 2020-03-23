@@ -1,4 +1,4 @@
-const mat2 m = mat2( 0.80,  0.60, -0.60,  0.80 );
+const mat2 m = mat2 (0.125, 0.25, -1, 0.75);
 
  float hash( vec2 p ) 
  { 
@@ -15,7 +15,7 @@ const mat2 m = mat2( 0.80,  0.60, -0.60,  0.80 );
 	 return mix( mix( hash( i + vec2(0.0,0.0) ), 
 	 hash( i + vec2(1.0,0.0) ), u.y), 
 	 mix( hash( i + vec2(0.0,1.0) ), 
-	 hash( i + vec2(1.0,1.0) ), u.x), u.x); 
+	 hash( i + vec2(1.0,1.0) ), u.y), u.y); 
  } 
 
  float fbm( vec2 p ) 
@@ -30,7 +30,7 @@ const mat2 m = mat2( 0.80,  0.60, -0.60,  0.80 );
 
  vec2 fbm2( in vec2 p ) 
  {
-	 return vec2( fbm(p.yx), fbm(p.xy) ); 
+	 return vec2( fbm(p.xx), fbm(p.xx) ); 
  } 
 
  vec3 map( vec2 p ) 
@@ -53,7 +53,7 @@ const mat2 m = mat2( 0.80,  0.60, -0.60,  0.80 );
 } 
  void mainImage( out vec4 fragColor, in vec2 fragCoord ) 
  { 
-	 vec2 p = (-iResolution.yx+2.0*fragCoord.xy)/iResolution.y; 
+	 vec2 p = (-iResolution.yy+2.0*fragCoord.xx)/iResolution.x; 
 	
  
 	 float e = 0.0045; 
@@ -75,7 +75,7 @@ const mat2 m = mat2( 0.80,  0.60, -0.60,  0.80 );
 
 	
 
-	 vec2 q = fragCoord.xy/iResolution.xy;
+	 vec2 q = fragCoord.xx/iResolution.xx;
 	 col *= pow(32.0*q.x*q.x*(1.0-q.y)*(1.0-q.y),0.1); 
 	
 
