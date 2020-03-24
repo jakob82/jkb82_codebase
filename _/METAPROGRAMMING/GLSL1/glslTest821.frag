@@ -2,7 +2,7 @@ const mat2 m = mat2 (0.5, 0.5, -1, 1);
 
  float hash( vec2 p ) 
  { 
-	 float h = dot(p,vec2(127.1,311.7)); 
+	 float h = dot(p,vec2(145, 322)); 
 	 return -1.0 + 2.0*fract(sin(h)*43758.5453123); 
  } 
 

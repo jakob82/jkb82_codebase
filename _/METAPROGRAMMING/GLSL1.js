@@ -27,6 +27,11 @@ const matrix1 = [
     ["0.25, 0.25, -1, 0.45"],
 ]
 
+const matrix2 = [
+    ["322, 145"],
+    ["145, 322"],
+]
+
 const xyCoordinates2 = ["x", "y"];
 
 let range = 0; let textBlock;
@@ -42,7 +47,7 @@ function hashingProceduralScriptGeneration() {
         
         let textBlock="const mat2 m = mat2 ("+ matrix1[i1 % 7 % matrix1.length] + ");" 
         +   "\n\n float hash( vec2 p ) "
-        +   "\n { \n\t float h = dot(p,vec2(127.1,311.7)); "
+        +   "\n { \n\t float h = dot(p,vec2(" + matrix2[i1 % 21 % matrix2.length] + ")); "
         +   "\n\t return -1.0 + 2.0*fract(sin(h)*43758.5453123); "
         +   "\n } \n\n float noise( in vec2 p ) \n\n {"
         +   "\n\t vec2 i = floor( p ); \n\t vec2 f = fract( p );" 
