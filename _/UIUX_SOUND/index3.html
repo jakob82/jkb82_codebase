@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tone JS Tutorial Part 3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<style>
+  html, body {
+  height: 100%;
+}
+
+header {
+  overflow: hidden;
+  height: 100%;
+}
+header input {
+  position: absolute;
+  left: -9999px;
+}
+header input#chord-1:checked ~ ul label[for="chord-1"] {
+  background: #0000ff;
+}
+header input#chord-2:checked ~ ul label[for="chord-2"] {
+  background: #0000ff;
+}
+header input#chord-3:checked ~ ul label[for="chord-3"] {
+  background: #0000ff;
+}
+header input#chord-4:checked ~ ul label[for="chord-4"] {
+  background: #0000ff;
+}
+header input#chord-5:checked ~ ul label[for="chord-5"] {
+  background: #0000ff;
+}
+header ul {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+}
+header ul li {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+header ul li label {
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+  font-size: 3rem;
+}
+header ul li + li {
+  border-left: 4px solid #191919;
+}
+</style>
+
+<!-- partial:index.partial.html -->
+<header>
+  <input id="chord-1" value="1" type="radio" name="chord" />
+  <input id="chord-2" value="2" type="radio" name="chord" />
+  <input id="chord-3" value="3" type="radio" name="chord" />
+  <input id="chord-4" value="4" type="radio" name="chord" />
+  <input id="chord-5" value="5" type="radio" name="chord" />
+  <ul>
+    <li><label for="chord-1">1</label></li>
+    <li><label for="chord-2">2</label></li>
+    <li><label for="chord-3">3</label></li>
+    <li><label for="chord-4">4</label></li>
+    <li><label for="chord-5">5</label></li>
+  </ul>
+</header>
+
+<script>
+  console.clear();
+
+// UPDATE: there is a problem in chrome with starting audio context
+//  before a user gesture. This fixes it.
+var started = false;
+document.documentElement.addEventListener('mousedown', () => {
+  if (started) return;
+  started = true;
+
+  const $inputs = document.querySelectorAll('input'),
+  chords = [
+  'A0 C0 E0 G0 A0 C0', 'F0 A0 C0 E0 A0 G0', 'D0 E0 F0 G0 B0 D0 F0 B0 G0',
+  'D0 F0 A0 C0 D0 G0', 'E0 G0 B0 D0 C0 F0'].
+  map(formatChords);
+  console.log(chords);
+  var chordIdx = 0,
+  step = 0;
+
+  const synth = new Tone.Synth();
+  const gain = new Tone.Gain(0.7);
+  synth.oscillator.type = 'sine';
+  gain.toMaster();
+  synth.connect(gain);
+
+  Array.from($inputs).forEach($input => {
+    $input.addEventListener('change', () => {
+      if ($input.checked) handleChord($input.value);
+    });
+  });
+
+  function handleChord(valueString) {
+    chordIdx = parseInt(valueString) - 1;
+  }
+
+  Tone.Transport.scheduleRepeat(onRepeat, '16n');
+  Tone.Transport.start();
+  Tone.Transport.bpm.value = 90;
+
+  function onRepeat(time) {
+    let chord = chords[chordIdx],
+    note = chord[step % chord.length];
+    synth.triggerAttackRelease(note, '16n', time);
+    step++;
+  }
+
+  // DOWN THE LINE THIS WILL MAKE THINGS EASIER
+  function formatChords(chordString) {
+    let chord = chordString.split(' ');
+    let arr = [];
+    for (let i = 0; i < 2; i++) {
+      for (let j = 0; j < chord.length; j++) {
+        let noteOct = chord[j].split(''),
+        note = noteOct[0];
+        let oct = noteOct[1] === '0' ? i + 4 : i + 5;
+        note += oct;
+        arr.push(note);
+      }
+    }
+    return arr;
+  }
+});
+</script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/0.12.63/Tone.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
