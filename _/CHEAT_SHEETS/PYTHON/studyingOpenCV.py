@@ -3,7 +3,7 @@ import os
 import cv2
 
 
-filename = 'video.avi'
+filename = 'video.no4'
 frames_per_second = 24.0
 res = '720p'
 
