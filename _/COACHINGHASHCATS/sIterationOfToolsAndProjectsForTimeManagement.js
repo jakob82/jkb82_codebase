@@ -1,4 +1,4 @@
-const toolsAudio = ["ableton", "cubase", "maxforlive", "supercollider"];
+const toolsAudio = ["sonic pi", "supercollider"];
 const toolsVideo = ["processing", "adobe premiere + adobe after effects", "cinema 4d"];
 const toolsProgramming = ["javascript", "bash", "python"];
 
