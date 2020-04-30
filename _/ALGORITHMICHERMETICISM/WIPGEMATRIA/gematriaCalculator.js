@@ -6,6 +6,7 @@ function hermeticSimpleGematriaCalculator() {
 	{
 	 let calculateAsciiValue=gematriaCalculatorInput[i].toUpperCase();
 	 gematriaCalculatorOutput+=parseInt(calculateAsciiValue, 10);
+
 	}
 
 	return gematriaCalculatorOutput;

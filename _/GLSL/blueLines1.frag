@@ -33,6 +33,8 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 			float a=length(p); // absolute sum of average change
             v+= vec3(0,0,i)*a*0.12; // coloring based on distance
         }
+        
 	}
 	fragColor = vec4(v*.01,1.);	
+	
 }
