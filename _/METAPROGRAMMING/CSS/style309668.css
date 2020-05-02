@@ -1,0 +1,24 @@
+
+ h1 {
+	 color:rgba(250,125,250,225);
+	 font-size: 16;
+	 font-family: 'Roboto', sans-serif;
+	 text-align: center;
+ }
+ h2 {
+	 color:rgba(75,75,150,75);
+	 font-size: 16;
+	 font-family: 'Roboto', sans-serif;
+	 text-align: center;
+ }
+ h3 {
+	 color:rgba(250,125,250,225);
+	 font-size: 16;
+	 font-family: 'Roboto', sans-serif;
+	 text-align: center;
+ }
+ body {
+	 color:rgba(75,75,150,75);
+	 text-align: center;
+	 background-color: rgba(125,225,250,75);
+ }

@@ -1,24 +1,24 @@
 
  h1 {
-	 color:rgba(200,225,150,50);
+	 color:rgba(150,200,125,175);
 	 font-size: 16;
 	 font-family: 'Roboto', sans-serif;
 	 text-align: center;
  }
  h2 {
-	 color:rgba(50,25,150,250);
+	 color:rgba(250,200,50,200);
 	 font-size: 16;
 	 font-family: 'Roboto', sans-serif;
 	 text-align: center;
  }
  h3 {
-	 color:rgba(200,225,150,50);
+	 color:rgba(150,200,125,175);
 	 font-size: 16;
 	 font-family: 'Roboto', sans-serif;
 	 text-align: center;
  }
  body {
-	 color:rgba(50,25,150,250);
+	 color:rgba(250,200,50,200);
 	 text-align: center;
-	 background-color: rgba(175,175,225,100);
+	 background-color: rgba(225,75,125,250);
  }

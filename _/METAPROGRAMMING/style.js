@@ -31,7 +31,7 @@ let range=0;
 
 function createCSSpatterns() {
 
-    for (let i1 = 0; i1 < 10000; i1++) {
+    for (let i1 = 0; i1 < 500000; i1++) {
         let cssTest = ["style" + i1 + ".css"];
         console.log(cssTest, "utf-8");
 

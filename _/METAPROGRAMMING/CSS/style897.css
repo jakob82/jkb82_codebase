@@ -1,6 +1,6 @@
 
  h1 {
-	 color:rgba(125,25,250,50);
+	 color:rgba(250,50,50,200);
 	 font-size: 16;
 	 font-family: 'Roboto', sans-serif;
 	 text-align: center;
@@ -12,7 +12,7 @@
 	 text-align: center;
  }
  h3 {
-	 color:rgba(125,25,250,50);
+	 color:rgba(250,50,50,200);
 	 font-size: 16;
 	 font-family: 'Roboto', sans-serif;
 	 text-align: center;
@@ -20,5 +20,5 @@
  body {
 	 color:rgba(200,200,50,50);
 	 text-align: center;
-	 background-color: rgba(225,75,150,25);
+	 background-color: rgba(225,225,175,225);
  }
