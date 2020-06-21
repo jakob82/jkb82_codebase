@@ -1,4 +1,13 @@
+/*
+    ********************************************
+    code created by Tiago Morais Morgado in 2020
+    ********************************************
+*/
+
 let fs = require('fs');
+
+
+
 const cssValues=["0", "25", "50", "75", "100", "125", "150", "175", "200", "225", "250"];
 
 function createCSSpatterns() {
@@ -10,47 +19,47 @@ function createCSSpatterns() {
         let myColor1="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0 + ")";
         
         let myColor2="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor3="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor4="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor5="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor6="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor7="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor8="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         let myColor9="rgba(" + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] +","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
         + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ","
-        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] + ")";
+        + cssValues[Math.floor(Math.random() * (cssValues.length - 1)) + 1] / 255.0  + ")";
         
         
         
@@ -10133,7 +10142,7 @@ function createCSSpatterns() {
         + "\n    color: " + myColor6 + ";"
         + "\n  }";
         
-        fs.writeFileSync("./bootstrapThemesHashing/css" + cssTest, textblock);
+        fs.writeFileSync("./bootstrapThemesHashing/css/" + cssTest, textblock);
         
     }
 }
