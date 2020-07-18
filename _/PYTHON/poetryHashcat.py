@@ -21,7 +21,6 @@ verses.append(["Viesse em mim silêncio intempério que para lá de mim te revig
 verses.append(["que justa e inefacticamente se permuta por entre o pulsar quantico da esquadria do universo",
             "que justa e meta-dissidentemente se envieza para lá da sombra das malditas horas"]);
 
-
 lines = [line for verse in verses for line in verse]
 for verse in itertools.permutations(lines, 4):
 	print("".join(verse)) 
