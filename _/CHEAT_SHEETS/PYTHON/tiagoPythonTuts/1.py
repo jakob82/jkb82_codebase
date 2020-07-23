@@ -1,0 +1,7 @@
+print "HELLO"
+print "Welcome to my bario"
+print "My name is dario"
+print "(sonology times private jokes)"
+print "WINAMP!!!"
+print "It Really Whips the Llama's Ass"
+print "<3<3<3 ;) :):):) ;) <3<3<3"
