@@ -28,5 +28,9 @@ recipeBingredients.append(["chocolate", "apple sauce", "strawberry jam", "graham
 recipeBingredients.append(["coffee", "orange juice", "tea", "green tea", "apple juice", "tomato juice", "coke", "chocolate milk", "pinneaple juice", "lemonade", "cranberry juice", "expresso", "fruit juice", "ginger ale", "club soda", "sprite", "kool aid", "grenadine", "margarita mix", "cherry juice", "pepsi", "mountain dew"]);
 
 ingredient = [ingredient for cathegory in recipeAingredients for ingredient in cathegory]
-for cathegory in itertools.permutations(ingredient, 3):
+for cathegory in itertools.permutations(ingredient, 7):
+	print(" ".join(cathegory))
+
+ingredient = [ingredient for cathegory in recipeBingredients for ingredient in cathegory]
+for cathegory in itertools.permutations(ingredient, 11):
 	print(" ".join(cathegory))
